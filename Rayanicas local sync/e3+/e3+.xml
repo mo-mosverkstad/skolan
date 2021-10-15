@@ -3,10 +3,10 @@
 
 <todos version = "Nueva-persona" v = "5">
     <cabeza>
-        <h1>Elena 3</h1>
-        <cer content-editable="true"></cer>
+        <h1>My webpage 3</h1>
+        <cer contenteditable="true"></cer>
         <np id = "Botón de búsqueda">Cercar</np>
-        <npd>Inicar sessión</npd>
+        <npd id = "Botón de inicar sessión">Inicar sessión</npd>
     </cabeza>
     <cabeza>
         <nav>Lugar 1</nav>
@@ -25,6 +25,11 @@
         <nav>MUY PELIGRO!!! La computadora de este dispostivo ha alcanzado los 55.5°C. Su dispositivo debe enfriarse o explotará rápidamente!</nav>
     </cabeza>
     <image href = "https://uploads-ssl.webflow.com/6123b7f3a062a25a8b4d4119/616351dac8cb2b6fc50ac26c_%C3%A4mnesomr%C3%A5den%202.png"></image>
+    <página título = "AISection">
+        <seq>Buenos días! Qué quieres hacer hoy?</seq>
+        <seq>Buenos Aires 21.3°C</seq>
+        <seq id = "a">Some text here...</seq>
+    </página>
     <página título = "P3">
         <seq>Secuencias [a1, a2, ...]</seq>
     </página>
