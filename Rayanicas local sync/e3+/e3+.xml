@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="e3+.css"?>
+
+<todos version = "Nueva-persona" v = "5">
+    <cabeza>
+        <h1>Elena 3</h1>
+        <cer content-editable="true"></cer>
+        <np id = "Botón de búsqueda">Cercar</np>
+        <npd>Inicar sessión</npd>
+    </cabeza>
+    <cabeza>
+        <nav>Lugar 1</nav>
+        <nav>Lugar 2</nav>
+        <nav>Lugar 3</nav>
+        <nav>Todas las inversiones</nav>
+        <nav>Lugar 5</nav>
+        <nav>Lugar 6</nav>
+        <nd id = "Fecha y hora">8:32:21</nd>
+        <nd id = "Tiempo">Buenos Aires 21.3°C</nd>
+    </cabeza>
+    <cabeza>
+        <nav id = "Geolocación">Posición = lat: -34.590660 lon: -58.396400</nav>
+    </cabeza>
+    <cabeza>
+        <nav>MUY PELIGRO!!! La computadora de este dispostivo ha alcanzado los 55.5°C. Su dispositivo debe enfriarse o explotará rápidamente!</nav>
+    </cabeza>
+    <image href = "https://uploads-ssl.webflow.com/6123b7f3a062a25a8b4d4119/616351dac8cb2b6fc50ac26c_%C3%A4mnesomr%C3%A5den%202.png"></image>
+    <página título = "P3">
+        <seq>Secuencias [a1, a2, ...]</seq>
+    </página>
+    <página título = "Estrucutra de Blunt">
+        <seq>Envase[Item 1 Item 2 Item 3 ...]</seq>
+        <seq>Línea[1 2 3 4 5 6]</seq>
+        <seq>Anillo[3 4 5 6]</seq>
+        <seq>Iteración[1 2 3 4 5 6]</seq>
+        <seq>Lípido[(línea + línea) 17+17+17 (anillo + anillo)4+4+4 (línea + anillo)6(línea) + 2(anillo)]</seq>
+        <seq>Color</seq>
+        <seq></seq>
+    </página>
+    <página título = "Posicionales de Blunt (Lípido 1)">
+        <seq>Posicionales[dx dy width height length align colors backgrounds borders shadow glow]</seq>
+        <seq>Combinaciones[a+ a- a+b a-b a*b a/b]</seq>
+        <seq>Comparativos[a=b a≠b a&lt;b a&gt;b]</seq>
+    </página>
+    <página título = "Especificaciones de Blunt (Lípido 3)">
+        <seq>Combinatorio[1.~~Things (Positionals) 2+ Others]</seq>
+        <seq>Estructura PHP[1.[input, ~~[write, combinations, if-else-statement, loop]] 2+ Comparatives]</seq>
+        <seq>Página web[1. Container, Text~~línea styles ~~(Positionals)~~línea 2+ Link outside]</seq>
+        <seq>Transporte</seq>
+        <seq>Telecomunicaciones</seq>
+        <seq>Comida[1. ~~línea todos los comida 2+ combinaciones]</seq>
+        <seq>Alojamiento[1. Estructura de alojamento(Tipos de alojamento)]</seq>
+        <seq>Fecha y hora[1. línea [1 2 3 4 5 6 7]~~[1 2 3 ... 52] 2. Combinaciones]</seq>
+        <seq>Tiempo</seq>
+        <seq>Física[1. línea(Positionals) S = [1 3 5 7 9] 2+ Combinations(structure)]</seq>
+        <seq>SEQ[1. [1 3 5 7 9] 2. Combinaciones]</seq>
+        <seq>2D-obj, 3D-obj[1. línea anillo~~ Iter(Positionals) 2+ ...]</seq>
+        <seq>Compuestos químicos[1. línea anillo 2+ Chemical reaction (structure línea)]</seq>
+        <seq>Geometría[1. anillo 2+ Combinations(structure)]</seq>
+        <seq></seq>
+    </página>
+    <página título = "Personal information agency">
+        <seq>Formulario de información personal [nombre, apellido, número de identificación, tarjeta de identificación, sexo, estado marcial, nacionalidad, religión, nombre de los padres, fecha de nacimiento, dirección, ciudad, estado / región, código postal, país, número de teléfono , Tarjeta de crédito (mes, año, CVV2), huella digital, faceID, irisID, ocupación, salario, enfermedad, trastornos]</seq>
+        <button>Continue</button>
+    </página>
+    <página título = "Lo esencial">
+        <seq></seq>
+    </página>
+    <página título = "Problemas y emergencias">
+        <seq>[Argumentos, [Conflictos puros (2 frentes), (tercera parte)]] </seq>
+        <seq>Médicos</seq>
+        <seq>Policía</seq>
+        <seq>Ayuda</seq>
+        <seq>Inusuales</seq>        
+    </página>
+    <página título = "Socializar">
+        <seq>Conocer gente</seq>
+        <seq>Vida nocturna</seq>
+        <seq>Fiestas</seq>
+        <seq>Sensación &amp; opciones</seq>
+        <seq>Despedidas</seq>
+    </página>
+    <página título = "Turismo">
+        <seq>Vida turística pura</seq>
+        <seq>Diferencia cultural</seq>
+        <seq>Agencia de viajes</seq>
+        <seq>Oficina de turismo</seq>
+        <seq>Viaje</seq>
+    </página>
+    <página título = "Aficiones">
+        <seq></seq>
+    </página>
+    <página título = "Conversación">
+        <seq>Iniciar una conversación</seq>
+        <seq>Cambio de tema </seq>
+    </página>
+    <página título = "Persona">
+        <seq>Persona pura</seq>
+        <seq>Presentar a alguien</seq>
+    </página>
+    <página título = "Personalidad">
+        <seq></seq>
+    </página>
+    <página título = "Personas">
+        <seq>Familia</seq>
+        <seq>Profesiones</seq>
+    </página>
+    <página título = "Estilo de vida">
+        <seq></seq>
+    </página>
+    <página título = "Viajes">
+        <seq></seq>
+    </página>
+    <página título = "Regular">
+        <seq></seq>
+    </página>
+    <página título = "Sociedad y cultura">
+        <seq></seq>
+    </página>
+    <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml" src="e3+.js" type="application/javascript"/>
+</todos>

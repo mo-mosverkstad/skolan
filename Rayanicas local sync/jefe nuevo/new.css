@@ -1,0 +1,214 @@
+* {
+    display: block;
+}
+
+todos {
+    margin: auto;
+    padding: 0 10px;
+    width: 900px;
+    font-family: Helvetica;
+    color: #6d7486;
+}
+
+página {
+    display: list-item;
+    padding-top: 17px;
+    width: 750px;
+    position: relative;
+    left: 150px;
+    list-style-type: none;
+}
+
+página[type = "Search"], página[type = "NavBar"], página[type = "Alta temperatura"], página[type = "Pantalla de inicio"], página[type = "footer"]{
+    width: 900px;
+    position: static;
+}
+
+página[type = "Search"], página[type = "NavBar"]{
+    display: flex;
+    border-bottom: 1px solid silver;
+}
+
+página[type="Search"] {
+    padding: 5px 0;
+}
+
+página[type="NavBar"] {
+    padding-top: 0;
+}
+
+página[type="Alta temperatura"] {
+    color: red;
+}
+
+página[type="Pantalla de inicio"] {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+página[type="footer"] {
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid silver;
+    background: #fafbfc;
+}
+
+h1 {
+    margin: auto 10px;
+    font-weight: bolder;
+    font-size: 23px;
+    color: #c18de5;
+    text-align: center;
+}
+
+header {
+    padding: 2px 2px 2px 5px;
+    font-weight: bolder;
+    font-size: 17px;
+    color: #4c3e79;
+    background: #f8f8f6;
+    border: 1px solid silver;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
+}
+
+search-bar {
+    width: 45%;
+    height: 45px;
+    border: 0.1px solid silver;
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 9px #d9d9d9, inset -5px -5px 9px #ffffff;
+}
+
+search-bar:hover {
+    border-image: linear-gradient(90deg, #7030a0 0%, #95b3d7 50%, #0070c0 100%);
+    border-image-slice: 1;
+}
+
+button, login {
+    margin: auto auto auto 15px;
+    padding: 11px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #645487;
+    text-align: center;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow: 4px 4px 7px #d9d9d9, -4px -4px 7px #ffffff;
+}
+
+login {
+    margin: auto 10px auto auto;
+}
+
+login:hover, button:hover{
+    color: #875480;
+    border-radius: 8px;
+    box-shadow: inset 4px 4px 7px #d9d9d9, inset -4px -4px 7px #ffffff;
+}
+
+
+nav, time{
+    margin: 4px;
+    padding: 6px;
+    font-weight: 700;
+    font-size: 12.5px;
+    color: #645487;
+}
+
+time {
+    margin-left: auto;
+}
+
+smalltxt{
+    display: inline;
+    margin: 0 10px;
+    font-size: 11px;
+    color: #888;
+}
+
+nav:hover, time:hover, smalltxt:hover {
+    text-decoration: underline;
+}
+
+seq, seqCenter {
+    padding-left: 5px;
+    display: list-item;
+    list-style-type: none;
+    font-size: 14.1px;
+}
+
+seqCenter {
+    text-align: center;
+}
+
+text {
+    font-size: 12px;
+}
+
+bluntLipid3Img {
+    background: url("https://uploads-ssl.webflow.com/6123b7f3a062a25a8b4d4119/6123d3efccd7bda492deb444_5.png");
+}
+
+personalInfo {
+    background: url("https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-2/64/personal-information-icon.png");
+}
+
+problemImg {
+    background: url("https://icons.iconarchive.com/icons/iconshock/real-vista-medical/64/emergency-icon.png");
+}
+
+tourismImg {
+    background: url("https://icons.iconarchive.com/icons/aha-soft/travel/128/compass-icon.png");
+}
+
+entertainementImg {
+    background: url("https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/64/Actions-games-config-theme-icon.png");
+}
+
+conversationImg {
+    background: url("https://icons.iconarchive.com/icons/seanau/support-bubble/64/Support-Bubble-1-icon.png");
+}
+
+personImg {
+    background: url("https://uploads-ssl.webflow.com/6123b7f3a062a25a8b4d4119/6123d3eee5320c508414cc91_6.png");
+}
+
+personalityImg {
+    background: url("https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/64/Actions-user-properties-icon.png");
+}
+
+societyImg {
+    background: url("https://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/64/User-Group-icon.png");
+}
+
+bluntLipid3Img,
+personalInfo,
+problemImg,
+tourismImg,
+entertainementImg,
+conversationImg,
+personImg,
+personalityImg,
+societyImg {
+    background-size: 64px;
+    width: 64px;
+    height: 64px;
+}
+
+geoLogo {
+    background: url("https://t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_search.png");
+    background-position: -153px -453px;
+    width: 32px;
+    height: 29px;
+}
+
+ccbyncnd {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/CC-BY-NC-ND.svg/768px-CC-BY-NC-ND.svg.png");
+    background-repeat: no-repeat;
+    background-size: 128px 45px;
+    width: 128px;
+    height: 45px;
+    float: right;
+}

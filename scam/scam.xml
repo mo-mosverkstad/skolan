@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="my-style.css"?>
+<!DOCTYPE customer_list
+[
+<!ELEMENT customer_list (customer)> 
+<!ELEMENT customer (name,location)> 
+<!ELEMENT name (#PCDATA)> 
+<!ELEMENT location (#PCDATA)> 
+]> 
+
+<scam xml:lang = "es">
+    <header>
+        <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                src="file.js"
+                type="application/javascript"/>
+        <logoImg></logoImg>
+        <mainImg></mainImg>
+    </header>
+    <body>
+        <page>
+            <h3>Contenidos</h3>
+            <p>Personal forms</p>
+            <p>Blunt</p>
+            <p>Iso-pure-blunt</p>
+            <p>Iso-blunt</p>
+            <p>Apariencía</p>
+        </page>
+        <begin>
+            <pb>¿Por qué necesitamos su información de facturación?</pb>
+            <p>Lo pedimos para evitar el abuso de nuestra membresía de prueba gratuita</p>
+            <secureImg></secureImg>
+        </begin>
+        <page>
+            <h3>Mi cuenta</h3>
+            <p>Mi nombre</p>
+            <p>Mi nombre de usaria</p>
+            <p>Mi contrasena</p>
+        </page>
+        <page>
+            <h3>Validar cuenta</h3>
+            <h5>Facturación</h5>
+            <flex>
+                <fill>
+                    <p>Nombre de pila</p>
+                    <input contentEditable = "true"/>
+                </fill>
+                <fill>
+                    <p>Apellido</p>
+                    <input contentEditable = "true"/>
+                </fill>
+            </flex>
+            <fill>
+                <p>Dirección</p>
+                <input contentEditable = "true"/>
+            </fill>
+            <flex>
+                <fill>
+                    <p>Ciudad</p>
+                    <input contentEditable = "true"/>
+                </fill>
+                <fill>
+                    <p>Estado / Región</p>
+                    <input contentEditable = "true"/>
+                </fill>
+            </flex>
+            <flex>
+                <fill>
+                    <p>Código postal</p>
+                    <input contentEditable = "true"/>
+                </fill>
+                <fill>
+                    <p>País</p>
+                    <input contentEditable = "true"/>
+                </fill>
+            </flex>
+            <fill>
+                <p>Número de teléfono</p>
+                <input contentEditable = "true"/>
+            </fill>
+            <fill>
+                <h5>Tarjeta de crédito</h5>
+                <input contentEditable = "true"/>
+            </fill>
+            <flex>
+                <fill>
+                    <p>Mes</p>
+                    <input contentEditable = "true"/>
+                </fill>
+                <fill>
+                    <p>Año</p>
+                    <input contentEditable = "true"/>
+                </fill>
+                <fill>
+                    <p>CVV</p>
+                    <input contentEditable = "true"/>
+                </fill>
+            </flex>
+            <checkOut/>
+            <button>Continuar</button>
+            <h7>Segura y protegida</h7>
+            <p>Nos enorgullecemos de utilizar el software de seguridad de más alto nivel para crear el proceso más seguro para nuestros visitantes. Usamos capas de conexión segura de software cifrado (SSL) para proteger todos los datos personales, como los detalles de la tarjeta de crédito y las direcciones de correo electrónico, para que no se vean.</p>
+        </page>
+        <page>
+            <h3>Iso-puro-contundente</h3>
+            <p>¿Qué es?</p>
+            <h5>Estructuras &amp; combinaciones</h5>
+            <table>
+                <row>
+                    <point>Ninguna</point>
+                    <point>Ninguna</point>
+                    <point>3 Anillo</point>
+                    <point>4 Anillo</point>
+                    <point>5 Anillo</point>
+                    <point>6 Anillo</point>
+                    <point>7 Anillo</point>
+                    <point>8 Anillo</point>
+                    <point>9 Anillo</point>
+                </row>
+                <row>
+                    <point>1 Línea</point>
+                    <point>2 Línea</point>
+                    <point>3 Línea</point>
+                    <point>4 Línea</point>
+                    <point>5 Línea</point>
+                    <point>6 Línea</point>
+                    <point>7 Línea</point>
+                    <point>8 Línea</point>
+                    <point>9 Línea</point>
+                </row>
+                <row>
+                    <pc>1</pc>
+                    <pc>2</pc>
+                    <pc>3</pc>
+                    <pc>4</pc>
+                    <pc>5</pc>
+                    <pc>6</pc>
+                    <pc>7</pc>
+                    <pc>8</pc>
+                    <pc>9</pc>
+                </row>
+            </table>
+            <p>Lípidos &amp; iso-lípidos</p>
+            <p>Permutaciones</p>
+            <table>
+                <row>
+                    <point>1</point>
+                    <point>3</point>
+                    <point>5</point>
+                    <point>7</point>
+                    <point>9</point>
+                </row>
+            </table>
+            <p>Combinaciones</p>
+            <h3>Puntos</h3>
+            <p>¿Qué es un punto?</p>
+            <p>Aplicaciones:</p>
+            <table>
+                <row>
+                    <point>ChemSpider, SciLife</point>
+                    <point>Arch estructura</point>
+                    <point>Páginas web</point>
+                    <point>Planday</point>
+                    <point>Cuentas</point>
+                    <point>PHP estructura</point>
+                    <point>Matemáticas</point>
+                    <point>Física</point>
+                    <point>8 Ring</point>
+                    <point>9 Ring</point>
+                </row>
+            </table>
+            <p>Attr (crear / destruir)</p>
+        </page>
+        <page>
+            <h3>Iso-blunt</h3>
+            <p>La estructura de Iso-blunt</p>
+            <table>
+                <row>
+                    <point>Point 1</point>
+                    <point>Point 2</point>
+                    <point>More points ...</point>
+                </row>
+            </table>
+            <table>
+                <row>
+                    <point>a↑</point>
+                    <point>a↓</point>
+                    <point>a+b</point>
+                    <point>a-b</point>
+                    <point>a*b</point>
+                    <point>a/b</point>
+                </row>
+            </table>
+        </page>
+        <page>
+            <h3>Apariencía</h3>
+        </page>
+    </body>
+</scam>

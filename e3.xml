@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="e3.css"?>
+
+<e3s>
+    <l1>
+        <nav>Elena 3</nav>
+        <nav></nav>
+        <nav>Cercar</nav>
+        <nav>Inicar Sessión</nav>
+    </l1>
+    <l1>
+        <nav>Lugar 1</nav>
+        <nav>Lugar 2</nav>
+        <nav>Lugar 3</nav>
+        <nav>Todas las inversiones</nav>
+        <nav>Lugar 5</nav>
+        <nav>Lugar 6</nav>
+        <nav>8:32:21</nav>
+        <nav>Buenos Aires 21.3°C</nav>
+    </l1>
+    <l1>
+        <nav>MUY PELIGRO!!! La computadora de este dispostivo ha alcanzado los 55.5°C. Su dispositivo debe enfriarse o explotará rápidamente!</nav>
+    </l1>
+    <l2>
+        <seq>Bienvenido a la estructura de Tone Sekelius</seq>
+        <seq>Notificación de Facebook</seq>
+        <seq>Notificación por correo</seq>
+    </l2>
+    <l1>
+        <l2>
+            <h3>Todos los cosas</h3>
+            <seq>Lugar 1</seq>
+            <seq>Lugar 2</seq>
+            <seq>Lugar 3</seq>
+        </l2>
+        <l2>
+            <h3>P3</h3>
+            <seq>Secuencias [a1, a2, ...]</seq>
+            <h3>P5</h3>
+        </l2>
+    </l1>
+</e3s>

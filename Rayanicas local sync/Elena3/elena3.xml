@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="elena3.css"?>
+
+<e3s>
+    <l1>
+        <h1>Elena 3</h1>
+        <cer></cer>
+        <np id = "Botón de búsqueda">Cercar</np>
+        <npd>Inicar sessión</npd>
+    </l1>
+    <l1>
+        <nav>Lugar 1</nav>
+        <nav>Lugar 2</nav>
+        <nav>Lugar 3</nav>
+        <nav>Todas las inversiones</nav>
+        <nav>Lugar 5</nav>
+        <nav>Lugar 6</nav>
+        <nd id = "Fecha y hora">8:32:21</nd>
+        <nd id = "Tiempo">Buenos Aires 21.3°C</nd>
+    </l1>
+    <l1><nav id = "Geolocación">Posición = lat: -34.590660 lon: -58.396400</nav></l1>
+    <l1><nav>MUY PELIGRO!!! La computadora de este dispostivo ha alcanzado los 55.5°C. Su dispositivo debe enfriarse o explotará rápidamente!</nav></l1>
+    <mp></mp>
+    <l1>
+        <seq>Bienvenido a la estructura de Tone Sekelius</seq>
+        <seq>Notificación de Facebook</seq>
+        <seq>Notificación por correo</seq>
+    </l1>
+    <lx>
+        <l2>
+            <l3n>
+                <h3>Todos los cosas</h3>
+                <seqa>Lugar 1</seqa>
+                <seqa>Lugar 2</seqa>
+                <seqa>Lugar 3</seqa>
+            </l3n>
+            <l3n>
+                <h3>Todos los cosas</h3>
+                <seqa>Lugar 1</seqa>
+                <seqa>Lugar 2</seqa>
+                <seqa>Lugar 3</seqa>
+            </l3n>
+        </l2>
+        <l2x>
+            <l3>
+                <h3>P3</h3>
+                <seq>Secuencias [a1, a2, ...]</seq>
+            </l3>
+            <l3>
+                <h3>P5</h3>
+            </l3>
+            <l3>
+                <h3>Estrucutra de Blunt</h3>
+                <seq>Envase[Item 1 Item 2 Item 3 ...]</seq>
+                <seq>Línea[1 2 3 4 5 6]</seq>
+                <seq>Anillo[3 4 5 6]</seq>
+                <seq>Iteración[1 2 3 4 5 6]</seq>
+                <seq>Lípido[(línea + línea) 17+17+17 (anillo + anillo)4+4+4 (línea + anillo)6(línea) + 2(anillo)]</seq>
+                <seq>Color</seq>
+                <seq></seq>
+            </l3>
+            <l3>
+                <h3>Posicionales de Blunt (Lípido 1)</h3>
+                <seq>Posicionales[dx dy width height length align colors backgrounds borders shadow glow]</seq>
+                <seq>Combinaciones[a+ a- a+b a-b a*b a/b]</seq>
+                <seq>Comparativos[a=b a≠b a&lt;b a&gt;b]</seq>
+            </l3>
+            <l3>
+                <h3>Especificaciones de Blunt (Lípido 3)</h3>
+                <bluntLipid3Img></bluntLipid3Img>
+                <seq>Combinatorio[1.~~Things (Positionals) 2+ Others]</seq>
+                <seq>Estructura PHP[1.[input, ~~[write, combinations, if-else-statement, loop]] 2+ Comparatives]</seq>
+                <seq>Página web[1. Container, Text~~línea styles ~~(Positionals)~~línea 2+ Link outside]</seq>
+                <seq>Transporte</seq>
+                <seq>Telecomunicaciones</seq>
+                <seq>Comida[1. ~~línea todos los comida 2+ combinaciones]</seq>
+                <seq>Alojamiento[1. Estructura de alojamento(Tipos de alojamento)]</seq>
+                <seq>Fecha y hora[1. línea [1 2 3 4 5 6 7]~~[1 2 3 ... 52] 2. Combinaciones]</seq>
+                <seq>Tiempo</seq>
+                <seq>Física[1. línea(Positionals) S = [1 3 5 7 9] 2+ Combinations(structure)]</seq>
+                <seq>SEQ[1. [1 3 5 7 9] 2. Combinaciones]</seq>
+                <seq>2D-obj, 3D-obj[1. línea anillo~~ Iter(Positionals) 2+ ...]</seq>
+                <seq>Compuestos químicos[1. línea anillo 2+ Chemical reaction (structure línea)]</seq>
+                <seq>Geometría[1. anillo 2+ Combinations(structure)]</seq>
+                <seq></seq>
+            </l3>
+            <l3>
+                <h3>Personal information agency</h3>
+                <personalInfo></personalInfo>
+                <seq>Formulario de información personal [nombre, apellido, número de identificación, tarjeta de identificación, sexo, estado marcial, nacionalidad, religión, nombre de los padres, fecha de nacimiento, dirección, ciudad, estado / región, código postal, país, número de teléfono , Tarjeta de crédito (mes, año, CVV2), huella digital, faceID, irisID, ocupación, salario, enfermedad, trastornos]</seq>
+                <np>Continue</np>
+                <seq>Es verdad que tu quieres escribir tu información personal?</seq>
+            </l3>
+            <l3>
+                <h3>Lo esencial</h3>
+            </l3>
+            <l3>
+                <h3>Problemas y emergencias</h3>
+                <problemImg></problemImg>
+                <seq>[Argumentos, [Conflictos puros (2 frentes), (tercera parte)]] </seq>
+                <seq>Médicos</seq>
+                <seq>Policía</seq>
+                <seq>Ayuda</seq>
+                <seq>Inusuales</seq>        
+            </l3>
+            <l3>
+                <h3>Socializar</h3>
+                <seq>Conocer gente</seq>
+                <seq>Vida nocturna</seq>
+                <seq>Fiestas</seq>
+                <seq>Sensación &amp; opciones</seq>
+                <seq>Despedidas</seq>
+            </l3>
+            <l3>
+                <h3>Turismo</h3>
+                <tourismImg></tourismImg>
+                <seq>Vida turística pura</seq>
+                <seq>Diferencia cultural</seq>
+                <seq>Agencia de viajes</seq>
+                <seq>Oficina de turismo</seq>
+                <seq>Viaje</seq>
+            </l3>
+            <l3>
+                <h3>Aficiones</h3>
+                <entertainementImg></entertainementImg>
+            </l3>
+            <l3>
+                <h3>Conversación</h3>
+                <conversationImg></conversationImg>
+                <seq>Iniciar una conversación</seq>
+                <seq>Cambio de tema </seq>
+            </l3>
+            <l3>
+                <h3>Persona</h3>
+                <personImg></personImg>
+                <seq>Persona pura</seq>
+                <seq>Presentar a alguien</seq>
+            </l3>
+            <l3>
+                <h3>Personalidad</h3>
+                <personalityImg></personalityImg>
+            </l3>
+            <l3>
+                <h3>Personas</h3>
+                <seq>Familia</seq>
+                <seq>Profesiones</seq>
+            </l3>
+            <l3>
+                <h3>Estilo de vida</h3>
+            </l3>
+            <l3>
+                <h3>Viajes</h3>
+            </l3>
+            <l3>
+                <h3>Regular</h3>
+            </l3>
+            <l3>
+                <h3>Sociedad y cultura</h3>
+                <societyImg></societyImg>
+            </l3>
+        </l2x>
+    </lx>
+    <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml" src="elena3.js" type="application/javascript"/>
+</e3s>
