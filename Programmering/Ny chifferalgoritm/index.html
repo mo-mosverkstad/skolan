@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+<body>
+<h1>Encryption algorithm</h1>
+
+<p>Algorithm type:</p>
+<p>Built-in algorithm:</p>
+<select id = "algorithmType" onchange="onChangeSelectAlgorithmType()">
+  <option value="nul">None (Using custom)</option>
+  <option value="cae">Caesar cipher</option>
+  <option value="sfc">Semi-factorialfunction</option>
+</select>
+<p>Custom algorithm:</p>
+<input type="text" placeholder="Write here..." id="Algorithm">
+<p>Interval type:</p>
+<select id = "regularInterval">
+  <option value="true">Regular interval</option>
+  <option value="false">Irregular interval</option>
+</select>
+<p>Write the text here to encrypt:</p>
+<input type="text" placeholder="Write here..." id="plainText">
+<button type="button" onclick="onClickEncode();">ENCODE</button>
+<p id = "encryptedText">-</p>
+<p>Write the text here to decrypt:</p>
+<input type="text" placeholder="Write here..." id="encryptText">
+<button type="button" onclick="onClickDecode();">DECODE</button>
+<p id = "decryptedText">-</p>
+
+<script src="cipherAlgorithm.js"></script>
+</body>
+</html>

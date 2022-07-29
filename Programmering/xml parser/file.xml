@@ -1,0 +1,27 @@
+<xml lang = "en">
+  <sect1>
+    <name>Alfred</name>
+    <surname>Fredsson</surname>
+    <occupation>IT</occupation>
+    <year>77</year>
+    <month>MAR</month>
+    <day>12</day>
+  </sect1>
+  <sect1>
+    <name>Mia</name>
+    <surname>Fredsson</surname>
+    <occupation>Sales</occupation>
+    <year>81</year>
+    <month>SEP</month>
+    <day>22</day>
+  </sect1>
+  <sect1>
+    <name>Elena</name>
+    <surname>Sanchez</surname>
+    <occupation>Medical</occupation>
+    <year>06</year>
+    <month>JUL</month>
+    <day>21</day>
+    <education>Karolinska medical school</education>
+  </sect1>
+</xml>

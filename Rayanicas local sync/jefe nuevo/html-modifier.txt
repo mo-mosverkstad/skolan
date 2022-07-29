@@ -1,1 +1,0 @@
-<div class="item scenario-item-btn-play set-locale-url" href="/sv/portugisiska-lektioner-på-nätet/" data-src="screen-game" data-item="14" data-playlist="2" onclick="ga('send', 'event', 'web', 'lesson', 'lesson-learning-cards');" data-view="card-opened" data-type="cards" data-mode="learning" data-memorizer="0" data-uri="/sv/portugisiska-lektioner-på-nätet/">

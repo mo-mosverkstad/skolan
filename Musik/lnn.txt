@@ -1,0 +1,19 @@
+Pre-coro: E A Bm A
+5B 2A G# A 2G#
+2E 2F# 2E F# A G# E
+
+6B 2A G# A
+3E 2F# 2E F# A G# E
+
+Coro: C#m A B C#m
+5E F# G# F#
+3G# A G# F#
+2E 7F# E G#
+5C4# D4# E4# 4C# 7B4 D4# C4#
+G4# F4# E4 C4# 3C4# 5D4# C4# E4
+
+V: D A Bm G
+A 4D B 4A G B A
+A 4D C# 4A 2G F#
+A 4D C# 3A D
+G 2B D

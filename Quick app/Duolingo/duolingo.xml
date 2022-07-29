@@ -1,0 +1,2741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<article lang = "es">
+    <title>Duolingo natural language structure</title>
+    <para>En CSS, escribe user-select: auto;</para>
+    <para>Use este sitio web (https://www.textfixer.com/tools/remove-duplicate-lines.php) para eliminar líneas duplicadas</para>
+    <title>1. Introducción</title>
+    <sect1>
+        <para>Un hombre, una mujer</para>
+        <para>el niño, la niña</para>
+        <para>Yo soy un hombre.</para>
+        <para>Yo soy una mujer.</para>
+        <para>Yo soy un niño.</para>
+        <para>Yo soy un niño. Ella es una niña.</para>
+        <para>Él come manzanas.</para>
+        <para>El es un niño.</para>
+        <para>Juan come manzanas.</para>
+        <para>Él come manzanas.</para>
+        <para>Tú eres un hombre.</para>
+        <para>¿Tú comes pan?</para>
+        <para>La leche.</para>
+        <para>El hombre bebe agua.</para>
+        <para>Tú comes manzanas?</para>
+        <para>Yo bebo agua. Tú bebes leche.</para>
+        <para>La niña bebe leche. Tú bebes agua.</para>
+        <para>Juan come pan.</para>
+        <para>Yo bebo leche.</para>
+        <para>Yo bebo, tú bebes, él bebe.</para>
+        <para>Yo como, tú comes, él come.</para>
+        <para>Yo como, tú comes, él come.</para>
+        <para>Ella es una mujer.</para>
+        <para>Tú bebes agua?</para>
+        <para>El pan</para>
+        <para>Yo como manzanas.</para>
+        <para>Yo como pan.</para>
+        <para>Yo bebo leche, tu bebes leche.</para>
+        <para>La mujer bebe agua.</para>
+        <para>Él es un niño.</para>
+        <para>Ella es una niña.</para>
+        <para>Tú eres un niño.</para>
+        <para>Tú eres una niña.</para>
+        <para>Usted es una mujer.</para>
+        <para>¿Tú bebes agua?</para>
+        <para>¿Tú comes manzanas?</para>
+        <para>Juan come pan</para>
+    </sect1>
+    <title>2. Frases</title>
+    <sect1>
+        <para>Sí, gracias.</para>
+        <para>Sí, ¡lo siento!</para>
+        <para>No, gracias.</para>
+        <para>Sí, por favor.</para>
+        <para>¿Perdón?</para>
+        <para>Sí, agua, por favor.</para>
+        <para>Oh, no!</para>
+        <para>Sí, yo soy Juan.</para>
+        <para>Por favor, no.</para>
+        <para>Lo siento! Perdón!</para>
+        <para>Lo siento.</para>
+        <para>De nada, Juan.</para>
+        <para>Sí, por favor.Gracias. De nada!</para>
+        <para>Disculpe.</para>
+        <para>Juan, ¿tú hablas inglés? No, lo siento. Yo hablo español.</para>
+        <para>Sí, yo hablo español.</para>
+        <para>Disculpe, por favor.</para>
+        <para>Yo hablo inglés. Tú hablas español?</para>
+        <para>Disculpe, por favor.</para>
+        <para>Hola, hablas inglés?</para>
+        <para>Yo hablo español.</para>
+        <para>Juan, tu hablas inglés.</para>
+        <para>Buenos días!</para>
+        <para>Adios, buenas noches.</para>
+        <para>Hola, yo soy Juan.</para>
+        <para>Adiós, buenas noches.</para>
+        <para>Hola, buenos días.</para>
+        <para>Hola, mucho gusto.</para>
+        <para>De nada.</para>
+        <para>¿Perdón, Luis?</para>
+        <para>De nada, Luis.</para>
+        <para>Sí, ¡lo siento!</para>
+    </sect1>
+    <title>3. Viaje</title>
+    <sect1>
+        <para>¿Dónde está tu pasaporte?</para>
+        <para>Tu autobús está aquí.</para>
+        <para>Tu dinero.</para>
+        <para>En el aeropuerto.</para>
+        <para>Yo necesito dinero.</para>
+        <para>Un tren.</para>
+        <para>En el autobús.</para>
+        <para>Dónde está la mujer? Está en el aeropuerto.</para>
+        <para>Un boleto a Madrid.</para>
+        <para>¿Dónde está el supermercado?</para>
+        <para>En el museo.</para>
+        <para>El museo está cerrado.</para>
+        <para>Dónde está el banco?</para>
+        <para>En el hospital</para>
+        <para>Dónde está el baño?</para>
+        <para>Dónde está la leche? Está en el supermercado.</para>
+        <para>Una calle.</para>
+        <para>Un teléfono.</para>
+        <para>El pasaporte.</para>
+        <para>Mi taxi</para>
+        <para>Una maleta.</para>
+        <para>Yo necesito un taxi.</para>
+        <para>El pasaporte, por favor.</para>
+        <para>Yo necesito un teléfono.</para>
+        <para>Es mi maleta.</para>
+        <para>Yo necesito mi maleta.</para>
+        <para>Necesito un taxi, por favor!</para>
+        <para>Mí teléfono</para>
+        <para>Necesito mi pasaporte, por favor.</para>
+        <para>El pasaporte</para>
+        <para>Dónde está el teléfono?</para>
+        <para>Yo tengo una reserva.</para>
+        <para>Yo tengo un pasaporte.</para>
+        <para>Yo necesito una reserva.</para>
+        <para>Yo tengo un pasaporte.</para>
+        <para>El hotel está aquí.</para>
+        <para>El hombre está en el hotel.</para>
+        <para>¿Dónde?</para>
+        <para>Mi pasaporte está en el hotel.</para>
+        <para>El taxi está aquí.</para>
+        <para>Dónde está el pasaporte.</para>
+        <para>Un boleto a Barcelona.</para>
+        <para>Yo tengo un boleto a Madrid.</para>
+        <para>¿Dónde está tu boleto?</para>
+        <para>Yo necesito dinero.</para>
+        <para>El hospital está aquí.</para>
+        <para>Dónde está el banco? Está en la calle?</para>
+        <para>En el supermercado.</para>
+        <para>El banco está cerrado.</para>
+        <para>Dónde está el museo.</para>
+        <para>El museo está cerrado.</para>
+        <para>El pasaporte, por favor.</para>
+        <para>Yo necesito mi maleta.</para>
+        <para>En la maleta</para>
+        <para></para>
+        <para></para>
+        <para></para>
+    </sect1>
+    <title>4. Restaurante</title>
+    <sect1>
+        <para>Uno, dos, tres</para>
+        <para>Hola, buenos días. ¿Una mesa para 3 personas?</para>
+        <para>Una mesa para 3 personas por favor.</para>
+        <para>para 2 personas</para>
+        <para>Una mesa para dos, por favor</para>
+        <para>Una mesa para 3 personas</para>
+        <para>Yo necesito una mesa</para>
+        <para>Una hamburguesa de pescado, por favor.</para>
+        <para>La carne (¿Con carne?)</para>
+        <para>Un sándwich con queso, por favor.</para>
+        <para>Una hamburguesa de carne, por favor. Conqueso.</para>
+        <para>para el niño, un sándwich de pescado, gracias. para ella, una hamburguesa.</para>
+        <para>Yo como una hamburguesa de carne con queso.</para>
+        <para>Con pescado</para>
+        <para>Yo como un sándwich. Tú comes una hamburguesa.</para>
+        <para>Tú comes una hamburguesa de carne, yo como un sándwich de queso</para>
+        <para>Un sándwich de queso.</para>
+        <para>Un jugo de naranja, gracias.</para>
+        <para>Sin leche por favor.</para>
+        <para>Sin azúcar, por favor.</para>
+        <para>¡Disculpe!Un café sin azúcar, gracias.</para>
+        <para>Una taza de café conazúcar. Sin leche, por favor.</para>
+        <para>Una taza de café, por favor. Unvaso de agua, por favor.</para>
+        <para>Un vaso</para>
+        <para>Una taza</para>
+        <para>Necesito un vaso de agua, por favor.</para>
+        <para>¿Una ensalada con o sin tomate?</para>
+        <para>Sin tomate por favor.</para>
+        <para>Sin sal, por favor</para>
+        <para>para ella, una ensalada sin tomate, sin sal, sin queso. Gracias.</para>
+        <para>Yo necesito la cuenta</para>
+        <para>Yo necesito pagar</para>
+        <para>Yo quiero una ensalada.</para>
+        <para>Gracias, la ensalada está deliciosa. Quiero pagar la cuenta, por favor.</para>
+        <para>Yo quiero pagar la cuenta</para>
+        <para>Una mesa para dos personas</para>
+        <para>Yo tengo una reserva para trespersonas.</para>
+        <para>Yo necesito una mesa</para>
+        <para>para dos personas</para>
+        <para>El restaurante está cerrado.</para>
+        <para>¿Un sándwich de carne con queso?</para>
+        <para>Síconqueso, por favor.</para>
+        <para>Una hamburguesa, por favor.</para>
+        <para>¿Un sándwich de manzana?</para>
+        <para>¡No, un sándwich con queso!</para>
+        <para>Unvaso de agua, por favor.</para>
+        <para>Elle come una manzana. Yo bebo un jugo de naranja.</para>
+        <para>Un café sin azúcar.</para>
+        <para>Una taza.</para>
+        <para>Un jugo de naranja</para>
+        <para>¿Con o sin tomate?</para>
+        <para>Sin tomate</para>
+        <para>Yo quiero una hamburguesa. Gracias.</para>
+        <para>¿Con o sin queso?</para>
+        <para>La cuenta por favor.</para>
+        <para>Sin tomate, por favor</para>
+        <para>Yo quiero una ensalada.</para>
+        <para>La ensalada, ¿con o sin sal?</para>
+        <para>Quiero pagar la cuenta, por favor.</para>
+        <para>Buenos días. Una mesa para dos por favor.</para>
+        <para>Una mesa para tres personas, por favor.</para>
+    </sect1>
+    <title>5. La familia</title>
+    <sect1>
+        <para>Mi madre es inteligente</para>
+        <para>Mi casa</para>
+        <para>Mi carro está en tu casa</para>
+        <para>Luis es mi padre. Él tiene un carro elegante.</para>
+        <para>Mi padrees elegante</para>
+        <para>Ella es María. Ella es mi madre, es una mujer inteligente.</para>
+        <para>Ella tiene una casa.</para>
+        <para>El hermano, la hermana</para>
+        <para>Mi gato es muy bonito</para>
+        <para>Tu hermano</para>
+        <para>¿Él es tu hermano?</para>
+        <para>Yo tengo una hermana</para>
+        <para>Mi hermana es muy inteligente</para>
+        <para>Yo tengo un perro muy grande. Mi padre tiene un gato muy bonito</para>
+        <para>El abuelo, la abuela</para>
+        <para>El esposo, la esposa</para>
+        <para>Mi abuela Sara tiene un apartamento muy bonito en Madrid</para>
+        <para>Tengo una familia muy grande</para>
+        <para>Yo vivo aquí.</para>
+        <para>Yo vivo en un apartamento en Madrid.</para>
+        <para>Mi hijo es inteligente</para>
+        <para>¿Tú tienes una hija? Yo tengo un hijo.</para>
+        <para>Yo tengo una hija y tú tienes un  hijo.</para>
+        <para>Él es elegante</para>
+        <para>Tu perro es muy bonito.</para>
+        <para>Mi perro es bonito.</para>
+        <para>Mi hermano.</para>
+        <para>Mi hermana es muy inteligente.</para>
+        <para>Yo tengo un gato.</para>
+        <para>Ella tiene un gato.</para>
+        <para>El hermano, la hermana.</para>
+        <para>Tu hermano.</para>
+        <para>Mi perro es grande.</para>
+        <para>Él tiene un gato.</para>
+        <para>El abuelo, la abuela</para>
+        <para>Mi esposa es ingeligente.</para>
+        <para>¡Tu apartamento es bonito!</para>
+        <para>Mi familia es grande.</para>
+        <para>Mi apartamento es perfecto.</para>
+        <para>Mi esposo es inteligente.</para>
+        <para>Yo tengo una abuela.</para>
+        <para>¿Tú tienes un perro?</para>
+        <para>Un hermano y una hermana</para>
+        <para>Mi bicicleta.</para>
+        <para>Yo no vivo en Francia.</para>
+        <para>¿Tú tienes un carro?</para>
+        <para>Tengo una hija. Y tienes un hijo?</para>
+        <para>Mi hermano es interesante.</para>
+        <para>Yo tengo una hija.</para>
+        <para>Ella tiene un gato y yo tengo un perro.</para>
+        <para>Yo vivo aquí</para>
+        <para>Mi hijo es inteligente.</para>
+        <para>Mi familia es interesante.</para>
+        <para>Mi madre es inteligente.</para>
+        <para>Ella es María. Ella es mi madre, es una mujer inteligente.</para>
+        <para>Él tiene un carro.</para>
+        <para>Mi madre es elegante.</para>
+        <para>Él tiene una casa.</para>
+        <para>Luis es mi padre. Él tiene un carro elegante.</para>
+        <para>Mí carro está en tu casa.</para>
+        <para>Ella tiene un automóvil.</para>
+        <para>Mi carro es bonito.</para>
+        <para>Ella tiene un perro.</para>
+        <para>¿Él es tu hermano?</para>
+        <para>Yo tengo una hermana.</para>
+        <para>Mi gato es grande.</para>
+        <para>Yo tengo un perro muy grande. Mi padre tiene un gato muy bonito.</para>
+        <para>Tengo una familia muy grande</para>
+        <para>Tu apartamento es perfecto.</para>
+        <para>Mi abuela Sara tiene un apartamento muy bonito en Madrid.</para>
+        <para>Mi apartamento es grande.</para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+    </sect1>
+    <title>6. Las compras</title>
+    <sect1>
+        <para>Una camisa azul</para>
+        <para>Julia está en una tienda de ropa muy grande. La tienda está en Santiago.</para>
+        <para>Mi ropa</para>
+        <para>Una chaqueta azul</para>
+        <para>Hola, buenos días. Quiero una chaqueta verde</para>
+        <para>Yo quiero una camisa verde. La camisa está en la tienda</para>
+        <para>Yo quiero una camisa</para>
+        <para>Una tienda</para>
+        <para>Una camisa azul</para>
+        <para>Una chaqueta verde</para>
+        <para>Yo quiero este vestido gris. Es un vestido muy elegante</para>
+        <para>Este vestido gris es muy bonito</para>
+        <para>Quiero un sombrero gris y una camiseta verde</para>
+        <para>Roberto, quiero comprar un sombrero marrón en tu tienda de ropa</para>
+        <para>Un vestido</para>
+        <para>Sí, este sombrero</para>
+        <para>Yo quiero comprar una camisa</para>
+        <para>Yo tengo una camiseta verde y quiero comprar una camiseta marrón. Gracias</para>
+        <para>Yo quiero comprar ropa</para>
+        <para>Una camiseta verde</para>
+        <para>Yo quiero ese abrigo rojo. ¡Es muy bonito!</para>
+        <para>El abrigo rojo es caro. La falda azul es elegante.</para>
+        <para>Una falda diferente</para>
+        <para>Quiero comprar una falda y un abrigo</para>
+        <para>Tienes dinero? ¡Ese abrigo es muy caro!</para>
+        <para>Un sombrero barato</para>
+        <para>Hola, quiero comprar un sombrero barato</para>
+        <para>Ese abrigo</para>
+        <para>Un sombrero caro</para>
+        <para>Este cinturón azul es demasiado grande</para>
+        <para>¡La camiseta azul es mi camiseta favorita y es muy cómoda!</para>
+        <para>Quiero comprar una cartera marrón en mi tienda de ropa favorita.</para>
+        <para>Yo quiero una cartera y un reloj</para>
+        <para>Demasiado elegante</para>
+        <para>Mi chaqueta favorita</para>
+        <para>Un regalo para mi hija</para>
+        <para>Una cartera azul</para>
+        <para>Yo necesito ropa</para>
+        <para>Mi ropa</para>
+        <para>Yo quiero una chaqueta</para>
+        <para>Una chaqueta azul</para>
+        <para>El hombre tiene una chaqueta azul</para>
+        <para>Yo quiero una camisa</para>
+        <para>Una chaqueta verde</para>
+        <para>Yo quiero una camisa elegante, por favor</para>
+        <para>Yo quiero comprar una camisa gris y una camiseta azul</para>
+        <para>Un sombrero</para>
+        <para>Un vestido gris</para>
+        <para>Un vestido marrón</para>
+        <para>Un abrigo barato</para>
+        <para>La mujer tiene una falda azul</para>
+        <para>Ese vestido, por favor</para>
+        <para>Este cinturón es muy elegante.</para>
+        <para>Un regalo</para>
+        <para>La cartera, el reloj</para>
+        <para>Mi tienda favorita</para>
+        <para>Un cinturón marrón</para>
+        <para>Mi perro tiene una chaqueta muy cómoda</para>
+        <para>Un regalo para mi esposa</para>
+        <para>Este reloj es demasiado caro</para>
+    </sect1>
+    <title>7. Tiempo presente 1</title>
+    <sect1>
+        <para>Yo hablo</para>
+        <para>Tú hablas</para>
+        <para>Él / Ella habla</para>
+        <para>Yo como</para>
+        <para>Tú comes</para>
+        <para>Él come</para>
+        <para>Yo compro</para>
+        <para>Tú compras</para>
+        <para>Él compra</para>
+        <para>Yo necesito un hotel</para>
+        <para>¿Tú necesitas un taxi?</para>
+        <para>Él necesita</para>
+        <para>Yo soy</para>
+        <para>Tú eres</para>
+        <para>Él es</para>
+        <para>Ella es interesante</para>
+        <para>Yo pago</para>
+        <para>Tú pagas el pan</para>
+        <para>Ella paga el pan</para>
+        <para>Yo vivo</para>
+        <para>Tu vives</para>
+        <para>Él vive</para>
+        <para>Él compra manzanas</para>
+        <para>Yo estoy</para>
+        <para>Tu estas</para>
+        <para>Él está</para>
+        <para>Yo tengo</para>
+        <para>Tú tienes</para>
+        <para>Él tiene</para>
+        <para>Yo vivo</para>
+        <para>Tú vives</para>
+        <para>Él vive</para>
+        <para>Yo quiero un café</para>
+        <para>Tú bebes cafés.</para>
+        <para>Tú comes, Ella come</para>
+        <para>¿Tú tienes un carro?</para>
+        <para>¿Tú comes manzanas?</para>
+        <para>Yo quiero</para>
+        <para>Tú quieres</para>
+        <para>Él quiere</para>
+    </sect1>
+    <title>8. La escuela</title>
+    <sect1>
+        <para>Hola, Antonio. Soy Luis. ¿Dónde está mi libro de inglés? Tengo una clase muy importante en la escuela.</para>
+        <para>Mi bolígrafo</para>
+        <para>Mi clase de inglés es fácil</para>
+        <para>¿Dónde está mi libro?</para>
+        <para>Tengo un examen y necesito un bolígrafo</para>
+        <para>Una escuela</para>
+        <para>¿Hola, tú eres maestro de español en la escuela de mi hermano?</para>
+        <para>Buenos días. Yo soy Juan, soy el maestro de inglés y este examen es muy fácil.</para>
+        <para>Dóndeestá mi bolígrafo</para>
+        <para>Una clase fácil</para>
+        <para>Mi maestro de español</para>
+        <para>Yo soy estudiante en una escuela de inglés</para>
+        <para>Yo necesito leer</para>
+        <para>Un maestro y un estudiante</para>
+        <para>Yo quiero leer en español</para>
+        <para>Maestro, este problema es muy difícil. Tengo una pregunta.</para>
+        <para>El examen es muy difícil y yo necesito mi libro. ¿Dónde está? Necesito estudiar español.</para>
+        <para>Yo necesito escribir en clase</para>
+        <para>Un problema interesante</para>
+        <para>Una clase importante</para>
+        <para>Yo tengo un examen importante de inglés y quiero estudiar mucho. El examen es difícil.</para>
+        <para>Yo no comprendo la pregunta</para>
+        <para>En la clase de español, yo escribo y leo mucho</para>
+        <para>Yo escribo mucho</para>
+        <para>Yo comprendo/entiendo</para>
+        <para>Hola, soy Daniel. Yo no comprendo inglés, Yo estudio español en la escuela. </para>
+        <para>Yo escribo en español.</para>
+        <para>Yo leo mucho y quiero leer un libro interesante.</para>
+        <para>Yo estudio aquí</para>
+        <para>Tengo un examen y necesito estudiar. Yo estudio español en la escuela.</para>
+        <para>Yo leo con mi maestro</para>
+        <para>Yo no escribo mucho</para>
+        <para>Yo estudio medicina. Tú estudias español.</para>
+        <para>Mi computadora</para>
+        <para>¿Yo escribo mucho, tú escribes mucho?</para>
+        <para>Un profesor importante</para>
+        <para>Tú lees mucho</para>
+        <para>Tú estudias medicina en la universidad</para>
+        <para>Hans es de Londres. Él es profesor de inglés en la universidad.</para>
+        <para>Tu lees en la computadora.</para>
+        <para>Tu escribes y lees mucho en la computadora.</para>
+        <para>¿Tú estudias medicina?</para>
+        <para>¿Tú estudias en la universidad?</para>
+        <para>¿Tú escribes en la computadora?</para>
+        <para>- Dónde está el maestro de español?</para>
+        <para>- Está aquí en la escuela.</para>
+        <para>Mi libro</para>
+        <para>- Tu bolígrafo está en la escuela</para>
+        <para>- Y dónde está mi libro?</para>
+        <para>Mi bolígrafo</para>
+        <para>Mi clase de inglés es fácil.</para>
+        <para>Yo tengo un examen de inglés y necesito un bolígrafo azul</para>
+        <para>Un examen de español</para>
+        <para>Tengo un examen difícil y quiero estudiar.</para>
+        <para>- Ana, tengo una pregunta.</para>
+        <para>- Es una pregunta fácil o difícil?</para>
+        <para>Este problema es interesante</para>
+        <para>Yo necesito escribir en clase.</para>
+        <para>Un estudiante</para>
+        <para>Yo quiero leer en español.</para>
+        <para>Una pregunta dificil</para>
+        <para>No comprendo este problema. Es muy difícil.</para>
+        <para>- Hola, yo estudio español. ¿Y tú?</para>
+        <para>- Lo siento, no comprendo</para>
+        <para>Yo no comprendo español</para>
+        <para>Yo no estudio español.</para>
+        <para>Yo entiendo</para>
+        <para>Yo escribo con mi maestra.</para>
+        <para>Mi profesor de medicina es muy importante en mi universidad y en el hospital</para>
+        <para>Yo estudio medicina. Tú estudias español.</para>
+        <para>¿Tú escribes mucho en la computadora?</para>
+        <para>- Estudias medicina?</para>
+        <para>- Sí, en la universidad.</para>
+        <para>¿Tú escribes en español?</para>
+        <para>Estudias en la universidad?</para>
+        <para>No, yo soy profesor.</para>
+        <para>Yo no estudio medicina</para>
+        <para>El profesor está aquí.</para>
+        <para>¿Tu lees mucho?</para>
+        <para>¿Tú estudias inglés?</para>
+        <para>Tú estudias medicina</para>
+    </sect1>
+    <title>9. La gente</title>
+    <sect1>
+        <para>El marido</para>
+        <para>Mis amigos son mexicanas</para>
+        <para>- A mi hija le gusta mirar películas</para>
+        <para>- A mi hijo no le gusta</para>
+        <para>Tengo dos hermanos mayores</para>
+        <para>Mi abuela y yo tocamos el piano juntas</para>
+        <para>Nosotros tocamos la guitarra</para>
+        <para>Mis hermanos escuchan música en la sala</para>
+        <para>Tengo dos hermanas menores</para>
+        <para>Mi hermano menor es muy inteligente</para>
+        <para>El señor López no es mi marido</para>
+        <para>¿Tú quieres salir ahora?</para>
+        <para>Hola, me llamo Ana. Mucho gusto. Soy de Estado Unidos.</para>
+        <para>¡Hola! Me llamo Li Wei. Yo soy de China y mi esposa es de Estado Unidos.</para>
+        <para>¡Buenos días! Él es Ming, es de China. Y yo soy Marco, de España.</para>
+        <para>¿Él es americano?</para>
+        <para>¿Es Juan de España?</para>
+        <para>Ella es americana</para>
+        <para>Juan es de España.</para>
+        <para>Mi nombre es José</para>
+        <para>Soy de Estados Unidos</para>
+        <para>Mi nombre es Héctor y vivo en España.</para>
+        <para>Tu madre es de Estados Unidos. ¿Y tu padre, de dónde es?</para>
+        <para>Yo vivo en Australia.</para>
+        <para>Hola, Anna, mucho gusto. Mi nombre es Julia y soy de España. ¿Y tú? ¿De dónde eres?</para>
+        <para>¿Él es un estudiante de España, tú eres un estudiante?</para>
+        <para>Ella es estudiante.</para>
+        <para>¡Hola! Mi nombre es John y soy un estudiante de Madrid. Yo vivo con Sara. Ella es de Santiago, Chile.</para>
+        <para>¡Mucho gusto, Anne! Yo soy de Estados Unidos, vivo en China y me llamo Mary.</para>
+        <para>La niña es estudiante.</para>
+        <para>¿De dónde es Pedro?</para>
+        <para>Ella es cubana y él es cubano</para>
+        <para>Tú eres interesante</para>
+        <para>Alberto es de México y Camila es de Cuba; él es mexicano y ella es cubana.</para>
+        <para>Me llamo Juan y soy cubano. Ella es Mary, mi esposa, es mexicana.</para>
+        <para>México es interesante</para>
+        <para>Mi abuela es de México, mi padre es cubano y mi madre es de China. Mi familia es interesante.</para>
+        <para>Yo vivo en Cuba con mi hermana.</para>
+        <para>Hola, me llamo Juan.</para>
+        <para>Hola, Juan. Soy Anna. ¿Eres de España?</para>
+        <para>- Hola, Anna. ¿Eres de China?</para>
+        <para>No, yo soy de España.</para>
+        <para>Sara es americana</para>
+        <para>Me llamo Marco</para>
+        <para>John es americano</para>
+        <para>Anne es una mujer de Estado Unidos.</para>
+        <para>Mi nombre es John. Yo soy Marco. ¿De dónde eres, John?</para>
+        <para>¿Él es un estudiante de España, tú eres un estudiante?</para>
+        <para>Mi nombre es Felipe y soy de España.</para>
+        <para>Yo soy estudiante de español y vivo en España.</para>
+        <para>- Ella es de Cuba?</para>
+        <para>- No, es mexicana.</para>
+        <para>Ella es cubana y él es cubano.</para>
+        <para>Me llamo Daniel. Soy mexicano.</para>
+    </sect1>
+    <title>10. Saludos</title>
+    <sect1>
+        <para>Hola. ¿Cómo estás? ¿Cómo está tu familia?</para>
+        <para>Sí estoy bien.</para>
+        <para>No, no estoy cansando. ¿Y tú?¿Estás bien?</para>
+        <para>Yo estoy bien, gracias. Y tu esposa, ¿cómo está?</para>
+        <para>Carmen, estás cansada?</para>
+        <para>¿Tú estás cansado? Ella está cansada.</para>
+        <para>Hola, me llamo Alberto. Yo como un sándwich de queso y bebo un jugo de naranja. ¡Estoy muy bien!</para>
+        <para>Patricia no está cansada.</para>
+        <para>Gracias, hasta luego.</para>
+        <para>Cómo está usted, señor Albert.</para>
+        <para>Estoy cansada. ¡Hasta mañana!¡Adiós!</para>
+        <para>Buenos tardes. Usted es la señora Flores. El señor Flores está aquí en el restaurante.</para>
+        <para>Buenas tardes, señorita.</para>
+        <para>¡Hola! Yo estudio aquí en México. Mi nombre es Francisco. ¿Y tú?¿Cómo te llamas?</para>
+        <para>Carmen está feliz.</para>
+        <para>Disculpe señor. ¿Usted es el profesor de inglés?¿Está muy ocupado?</para>
+        <para>La niña está mal.</para>
+        <para>¿Disculpe, maestro, está usted ocupado? Ana, tú estás ocupada?</para>
+        <para>¡Sí Gloria, Estoy feliz y ocupada!¡Yo escribo un libro importante de medicina!</para>
+        <para>Mi gato se llama Señor Pérez. ¡Él está muy feliz y ocupado!</para>
+        <para>Sí estoy muy ocupada.</para>
+        <para>No, no estoy bien. Estoy mal y cansada. ¿Tú cómo estás?</para>
+        <para>Hola, cuál es tu nombre.</para>
+        <para>Perdón, estás mal.</para>
+        <para>Señora, ¿cómo se llama usted?</para>
+        <para>- Hola, ¿cómo estás?</para>
+        <para>- ¿Estoy cansado, y tú?</para>
+        <para>Yo estoy bien, gracias. Y tu esposa, ¿cómo está?</para>
+        <para>Ella está cansada.</para>
+        <para>- Carmen, no estás bien?</para>
+        <para>- Sí estoy bien, gracias. ¿Y tú?¿Cómo estás?</para>
+        <para>Carmen, está cansada?</para>
+        <para>¡Hola, Isabel! No, no estoy cansada. ¿Y tú?¿Cómo estás?</para>
+        <para>Ella está cansada.</para>
+        <para>- ¡Hasta mañana, señora Sánchez!</para>
+        <para>- Hasta luego, señorita Pérez.</para>
+        <para>¡Hasta mañana, Gabriela! Tengo un examen y necesito estudiar. ¡Adiós!</para>
+        <para>¿Cómo está usted, señor Albert?</para>
+        <para>Buenas tardes, señora, ¿cómo está usted?Y, Juan, ¿tú cómo estás?</para>
+        <para>¿Señor, estás usted cansado?¿Y tú Andrea, está bien?</para>
+        <para>- Cómo te llamas?</para>
+        <para>- Me llamo Juan. ¿Y tú cómo te llamas?</para>
+        <para>Estoy feliz.</para>
+        <para>El hombre está mal.</para>
+        <para>¿Perdón estás mal?</para>
+        <para>¿Cuál es tu nombre?</para>
+        <para>La señora está ocupada</para>
+    </sect1>
+    <title>11. Viajar 2</title>
+    <sect1>
+        <para>Señorita, yo quiero un café y ella quiere un té, por favor.</para>
+        <para>Hola, disculpe. Quiero más café con leche y la cuenta, por favor.</para>
+        <para>¿Tú quieres más té? Yo no quiero más té</para>
+        <para>Señora, ¿quiere más queso con la ensalada?, o más pan?</para>
+        <para>¿Miguel, quieres más azúcar en tu café?</para>
+        <para>¿Ella quiere una banana?</para>
+        <para>Quieres un té?</para>
+        <para>Él quiere un té?</para>
+        <para>Sí quiero más leche.</para>
+        <para>Yo necesito más dinero. ¿Y tú, necesitas dinero?</para>
+        <para>Mi hermano no tiene carro. Él necesita un taxi.</para>
+        <para>Bruno, tú quieres un sombrero raro. Necesitas dinero?</para>
+        <para>Ana tiene un examen difícil y necesita ayuda. ¿Tú necesitas ayuda?</para>
+        <para>¿Señor, usted quiere comprar un sándwich?¿Necesita dinero?</para>
+        <para>¿Él necesita un carro?</para>
+        <para>Necesitas ayuda Bruno.</para>
+        <para>Necesitas dinero Antonio.</para>
+        <para>Hans necesita ayuda. Él está muy mal y cansado.</para>
+        <para>Él no necesita más dinero.</para>
+        <para>Yo uso la computadora en la escuela y tú usas un bolígrafo.</para>
+        <para>No yo uso mi teléfono. Mary, tú no tienes un teléfono. Quieres mi teléfono?</para>
+        <para>Ella usa el teléfono y yo uso la computadora.</para>
+        <para>Tengo un examen y necesito usar un bolígrafo azul.</para>
+        <para>¿Tú necesitas ayuda? Quieres usar mi teléfono?</para>
+        <para>¿Tú usas el carro?</para>
+        <para>Yo uso mi teléfono</para>
+        <para>Usas el carro, Juan?</para>
+        <para>Yo necesito un bolígrafo, por favor.</para>
+        <para>Hola, Bruno. Soy Ben. Necesito usar tu computadora. Tengo un examen y necesito estudiar.</para>
+        <para>¡Ayuda! Necesito usar tu teléfono y comprar un boleto a China.</para>
+        <para>Ella tiene mi maleta y yo tengo mi boleto.</para>
+        <para>Sí, yo tengo mi teléfono.</para>
+        <para>¿Tú tienes mi cartera?</para>
+        <para>Tengo mi maleta, mi pasaporte y mi... ¡No!¿Dónde está mi boleto?</para>
+        <para>Yo tengo el pasaporte.</para>
+        <para>¿Usted tiene mi maleta? Es una maleta grande y azul. Mi pasaporte está en la maleta.</para>
+        <para>¿Disculpe señor, tiene el boleto?¿Y tú, tienes tu boleto?</para>
+        <para>Señorita, yo quiero un café y ella quiere un té, por favor.</para>
+        <para>¡No, gracias! No quiero más azúcar en mi café.</para>
+        <para>- ¿Señor, quiere más café?</para>
+        <para>- No, gracias. Quiero más agua, por favor.</para>
+        <para>Quieres más agua?</para>
+        <para>Yo no quiero un café</para>
+        <para>Sí señor, necesito un taxi. ¡Gracias!</para>
+        <para>Yo necesito más dinero. ¿Y tú, necesitas dinero?</para>
+        <para>Necesito comprar un carro y no tengo dinero</para>
+        <para>El dinero</para>
+        <para>¿Usted necesita un taxi? Yo no necesito un taxi, gracias.</para>
+        <para>¿Necesita él un carro?</para>
+        <para>Tú usas el teléfono en la escuela?</para>
+        <para>Yo uso la computadora en la escuela y tú usas un bolígrafo.</para>
+        <para>Necesitas usar el bolígrafo azul o el bolígrafo rojo?</para>
+        <para>Tu no usas la computadora.</para>
+        <para>El hombre usa el teléfono.</para>
+        <para>Por favor, yo necesito usar el carro.</para>
+        <para>Necesitas un bolígrafo?</para>
+        <para>- Luis, tú tienes mi teléfono?</para>
+        <para>- No no tengo tu teléfono.</para>
+        <para>Ella tiene mi maleta y yo tengo mi boleto.</para>
+        <para>- Tiene mi pasaporte</para>
+        <para>- Yo? Yo no tengo tu pasaporte.</para>
+        <para>Tú tienes mi cartera?</para>
+        <para>Tú tienes una cartera gris muy elegante! Es de Londres?</para>
+        <para>Sí yo tengo una maleta.</para>
+        <para>Yo no tengo mi pasaporte.</para>
+        <para>Yo no tengo mi cartera</para>
+        <para>Usted tiene el pasaporte?</para>
+        <para>Disculpe señor, tiene el boleto? Y tú, tienes tu boleto?</para>
+        <para>Tienes tú el boleto?</para>
+    </sect1>
+    <title>12. Eventos diarios</title>
+    <sect1>
+        <para>José, cuando es el partido de fútbol</para>
+        <para>Mañana es lunes.</para>
+        <para>El lunes Miguel tiene una clase de inglés, una clase de español, una clase de medicina y un partido de fútbol.</para>
+        <para>Hoy es martes</para>
+        <para>Cuándo es el partido?</para>
+        <para>El partido es mañana</para>
+        <para>Hoy Alberto tiene un partido de fútbol en la escuela y mañana tiene un examen.</para>
+        <para>Gustavo, cuándo estás ocupado?</para>
+        <para>Lo siento, hoy es lunes</para>
+        <para>Cuándo estás ocupada, Sofia.</para>
+        <para>Qué día es el partido de fútbol? Es hoy o mañana?</para>
+        <para>Mañana es viernes? Mañana es mi partido de béisbol.</para>
+        <para>Hoy es jueves.</para>
+        <para>Qué día es mañana?</para>
+        <para>Mañana es jueves.</para>
+        <para>Mañana es jueves.</para>
+        <para>Feliz cumpleaños, Bruno! Tu regalo está aquí.</para>
+        <para>Mi cumpleaños es el viernes</para>
+        <para>El viernes es mi cumpleaños y quiero comprar una falda en mi tienda favorita.</para>
+        <para>El partido de béisbol es el martes.</para>
+        <para>El concierto no es el domingo, es el viernes.</para>
+        <para>Cuándo es tu cumpleaños?</para>
+        <para>La fiesta es sect1ertida y el concierto es sect1ertido</para>
+        <para>David es elegante, sect1ertido y muy interesante</para>
+        <para>Pedro, la fiesta no es el sábado.</para>
+        <para>Cuándo es tu concierto</para>
+        <para>Rafael, la fiesta es el domingo?</para>
+        <para>Andrea, tu fiesta de compleaños es muy sect1ertida.</para>
+        <para>El sábado es mi fiesta de cumpleaños. Hoy es viernes y tengo un partido de béisbol.</para>
+        <para>La fiesta no es muy sect1ertida.</para>
+        <para>Pedro, la fiesta no es el sábado.</para>
+        <para>La fiesta no es muy sect1ertida</para>
+        <para>Tienes una película favorita? Y un sándwich favorito?</para>
+        <para>Una semana en México.</para>
+        <para>Diego!Cuándo es el baile? Este fin de semana?</para>
+        <para>La semana favorita, el día favorito</para>
+        <para>Pedro, el baile es hoy?</para>
+        <para>Disfruta la semana!</para>
+        <para>Una semana interesante</para>
+        <para>Estoy muy feliz!Hoy es viernes!Disfruta el fin de semana, Carla! Adiós!</para>
+        <para>Es tu película favorita?</para>
+        <para>Disfruta el viernes.</para>
+        <para>El baile es el viernes.</para>
+        <para>Mi partido favorito es mañana</para>
+        <para>Un fin de semana</para>
+        <para>Hoy es el partido de fútbol en la escuela!</para>
+        <para>- Carla, cuándo es tu clase de inglés? Es hoy?</para>
+        <para>- No, es mañana.</para>
+        <para>Pedro, el partido es hoy.</para>
+    </sect1>
+    <title>13. La gente</title>
+    <sect1>
+        <para>Yo no estudio inglés. Tú estudias inglés?</para>
+        <para>Blanca no estudia francés en la universidad. Ella estudia medicina.</para>
+        <para>María estudia inglés, y tú estudias francés?</para>
+        <para>Juan quiere estudiar inglés en Estados Unidos.</para>
+        <para>Sí el señor Sánchez habla español.</para>
+        <para>Joel habla español, inglés y francés. Él es mexicano y es profesor de inglés en la universidad.</para>
+        <para>Yo estudio inglés el lunes y francés el miércoles. Tú cuándo estudias, Hans?</para>
+        <para>Yo no quiero hablar español.</para>
+        <para>Antonio habla español.</para>
+        <para>Lorena necesita estudiar francés. Ella tiene un examen mañana, el viernes.</para>
+        <para>No yo no estudio inglés.</para>
+        <para>Tú estudias inglés y francés.</para>
+        <para>Dónde estudia Pedro?</para>
+        <para>Tú trabajas en una oficina, en una fábrica y en un hospital. Luis, estás muy ocupado!</para>
+        <para>Tú trabajas en el hospital? Y quién trabaja en la oficina?</para>
+        <para>No quiero trabajar mañana, estoy muy cansada.</para>
+        <para>Yo trabajo en una oficina.</para>
+        <para>Tu trabajas en restaurante? Juan trabaja en la fábrica co Laura.</para>
+        <para>Yo soy Miguel y ella es Maritza. Ella trabaja en una fábrica y yo soy profesor de francés en la escuela.</para>
+        <para>Yo no quiero trabajar el domingo.</para>
+        <para>Yo trabajo en una fábrica.</para>
+        <para>Quién estudia francés?</para>
+        <para>Martín trabaja en la oficina el lunes, el miércoles y el viernes. Él trabaja en casa el martes y el jueves.</para>
+        <para>Juan necesita trabajar hoy.</para>
+        <para>Quién trabaja el domingo.</para>
+        <para>Dónde trabajas?</para>
+        <para>Señor, no tengo vino. Quiere beber un jugo de manzana con la carne?</para>
+        <para>Yo como carne, yo quiero comer una hamburguesa.</para>
+        <para>Sí yo como carne.</para>
+        <para>Julia no bebe jugo</para>
+        <para>El hombre bebe vino</para>
+        <para>Sí gracias, yo quiero un sándwich</para>
+        <para>La niña no come carne. Ella quiere comer una ensalada.</para>
+        <para>Sí gracias, yo quiero un sándwich</para>
+        <para>Señora, usted bebe vino?</para>
+        <para>David no quiere una ensalada.</para>
+        <para>Señor, usted quiere beber agua?</para>
+        <para>Por favor, yo necesito beber agua.</para>
+        <para>Juan quieres comer un sándwich?</para>
+        <para>Quieres comer más pan</para>
+        <para>Yo quiero comer un sándwich con queso, yo no como pescado.</para>
+        <para>La mujer bebe jugo.</para>
+        <para>David no quiere una ensalada.</para>
+        <para>Yo tengo una casa en México.</para>
+        <para>Tú vives en Europa. Y tu hijo, dónde vive?</para>
+        <para>Yo quiero vivir en Francia.</para>
+        <para>Mi madre vive en Europa. Dónde vives tú? En Francia?</para>
+        <para>Sí yo vivo en Inglaterra.</para>
+        <para>Claudia tiene una casa en Francia y trabaja en una universidad en Inglaterra?</para>
+        <para>Sí yo vivo en Inglaterra.</para>
+        <para>Fred estudia fránces y español. Él tiene un hermano en España y quiere vivir en Francia.</para>
+        <para>Sí ella vive en Australia</para>
+        <para>Quién quiere vivir en México?</para>
+        <para>Vives en Francia, Julia?</para>
+        <para>Tú vives en Inglaterra, Eduardo?Dónde? Yo trabajo en Londres!</para>
+        <para>Tienes una casa en España?</para>
+        <para>La mujer vive en una casa</para>
+        <para>Tú hablas francés? No, español.</para>
+        <para>Yo no estudio inglés. Tú estudias inglés?</para>
+        <para>- Y tú hablas español?</para>
+        <para>- No muy bien. Necesito estudiar más.</para>
+        <para>Amanda tiene un examen de francés y necesita estudiar,</para>
+        <para>Yo estudio inglés y mi hermano estudia francés.</para>
+        <para>Tú estudias español?</para>
+        <para>Yo hablo francés.</para>
+        <para>David estudia inglés.</para>
+        <para>David no estudia francés</para>
+        <para>- Dónde trabaja?</para>
+        <para>- Quién? ¿Mi hermano? En una oficina.</para>
+        <para>Tu trabajas en la fábrica? Yo trabajo en un restaurante.</para>
+        <para>- Él es tu esposo?</para>
+        <para>- Quién? ¿El hombre con sombrero? No.</para>
+        <para>Yo trabajo en la universidad y soy profesor de español.</para>
+        <para>Juan necesita trabajar hoy.</para>
+        <para>La mujer trabaja en una oficina y tiene una computadora.</para>
+        <para>Tú trabajas en una oficina.</para>
+        <para>Tú tienes una oficina?</para>
+        <para>Cúando trabajas en la fábrica?</para>
+        <para>David quieres trabajar mañana.</para>
+        <para>Quién trabaja en una fábrica?</para>
+        <para>El hombre quiere comer un sándwich de carne con queso.</para>
+        <para>- Señora, quiere la ensalada con o sin tomate?</para>
+        <para>- Sin tomate, por favor.</para>
+        <para>- Señor quiere la ensalada con queso?</para>
+        <para>La mujer bebe un vino muy caro en el restaurante.</para>
+        <para>Yo quiero comer un sándwich</para>
+        <para>Claudia quiere vivir en Francia y comer en un restaurante francés.</para>
+        <para>- Dónde vives? En Europa?</para>
+        <para>- Sí, en España. Y tú, dónde vives?</para>
+        <para>Él vive en una casa grande.</para>
+        <para>- Dónde vive Héctor?</para>
+        <para>- En Inglaterra. Y María dónde vive?</para>
+        <para>Tú vives en Francia?</para>
+        <para>Mi madre vive en Europa. Dónde vives tú? En Francia?</para>
+        <para>Sí yo vivo en Inglaterra.</para>
+        <para>Dónde quieres vivir?</para>
+        <para>Tienes una casa en España?</para>
+        <para>Yo quiero vivir en Mexico.</para>
+        <para>Yo no vivo en Europa.</para>
+        <para>Blanca no estudia francés en la universidad. Ella estudia medicina.</para>
+        <para>Joel habla español, inglés y francés. Él es mexicano y es profesor de inglés en la universidad.</para>
+        <para>Juan quiere estudiar inglés en Estados Unidos.</para>
+        <para>Juan quiere hablar español</para>
+        <para>Sí el señor Sánchez habla español.</para>
+        <para>Tú quieres hablar español?</para>
+        <para>Yo estudio inglés el lunes y francés el miércoles. Tú cuándo estudías, Hans?</para>
+        <para>Yo no quiero hablar español</para>
+        <para>Señor, ¿usted habla español?</para>
+        <para>Lorena necesita estudiar francés. Ella tiene un examen mañana, el viernes.</para>
+    </sect1>
+    <title>14. La gente 3</title>
+    <sect1>
+        <para>Él es maestro de inglés y ella es maestra de español.</para>
+        <para>La camarera es mexicana.</para>
+        <para>Él es camarero en un restaurante. Ella es camarera en un hotel.</para>
+        <para>El maestro es mexicano.</para>
+        <para>Yo soy estudiante y mi maestra de portugés tiene un restaurante en mi calle. Yo quiero trabajar en ese restaurante.</para>
+        <para>Albert es camarero y trabaja en un restaurante caro.</para>
+        <para>El maestro trabaja en una escuela</para>
+        <para>Ella es camarera</para>
+        <para>Ese camarero es muy ingeligente. Se llama Fred, es estudiante en mi escuela de medicina y habla español, inglés, y portugés. Él es cubano.</para>
+        <para>El maestro es mexicano.</para>
+        <para>Señora, es usted camarera?</para>
+        <para>Ella es maestra</para>
+        <para>Mi madre es maestra de portugés y español. Ella trabaja en una escuela importante.</para>
+        <para>Lo siento yo no hablo portugés.</para>
+        <para>¿Es José camarero?</para>
+        <para>Ella no trabaja en un restaurante.</para>
+        <para>Hablas español en la escuela?</para>
+        <para>Yo soy estudiante y mi maestra de portugés tiene un restaurante en mi calle. Yo quiero trabajar en ese restaurante.</para>
+        <para>Tienes el número de télefono de tu amiga Sofía? Yo quiero hablar con ella.</para>
+        <para>Tu amiga es cubana? Mi amigo es mexicano</para>
+        <para>No yo soy joven</para>
+        <para>Yo tengo un celular</para>
+        <para>Tú quieres ser maestra, Ana?</para>
+        <para>Ella es tu amiga?</para>
+        <para>Mi esposo necesita hablar portugués en el trabajo. Tienes el número de tu amigo Joel, el maestro de portugés?</para>
+        <para>Yo no tengo tu dirección.</para>
+        <para>Quieres mi número de celular?</para>
+        <para>Yo quiero ser maestro de español.</para>
+        <para>Mi amigo Héctor es muy joven.</para>
+        <para>Él es un médico importante.</para>
+        <para>Carmen es médico.</para>
+        <para>Sí, yo tengo un gato. Él es un animal muy elegante.</para>
+        <para>Él no es médico.</para>
+        <para>Ana, tú quieres vivir en una ciudad grande?</para>
+        <para>Quieres vivir en la ciudad?</para>
+        <para>Mi hija quiere ser médica. Y tu hijo, él quiere ser médico?</para>
+        <para>Ella se llama Sara. Ella vive en tu ciudad y es médica en el hospital en tu calle!</para>
+        <para>La señora Gómez es mi médica. Tu médico es el señor García?</para>
+        <para>Mi familia es mexicana.</para>
+        <para>Mi novia quiere estudiar francés.</para>
+        <para>Mi familia vive en España.</para>
+        <para>José, tu hermano es médico.</para>
+        <para>Bruno tiene una hermana.</para>
+        <para>Sofía vive en un pueblo.</para>
+        <para>Yo vivo en un pueblo interesante. Tiene un restaurante elegante y un museo importante.</para>
+        <para>Mi familia es mexicana.</para>
+        <para>Dónde vive tu hermana?</para>
+        <para>Tu hermano es maestro? Y tu hermana es médica?</para>
+        <para>Mi hermana Valeria vive en un pueblo con mi familia, es médica y tiene un gato. Él se llama Einstein y trabaja con ella en el hospital.</para>
+        <para>Ella es mi novia. Gabriel, él es tu novio?</para>
+        <para>Quieres el número de mi hermano Luis? Él es estudiante de medicina, habla portugués y no tiene novia!</para>
+        <para>Él no es mi novio. Ella es mi novia.</para>
+        <para>Vives con tu novio.</para>
+        <para>José, tu hermano es médico?</para>
+        <para>Tu vives con tu novia en la ciudad grande?</para>
+        <para>Ella es camarera</para>
+        <para>El maestro es mexicano.</para>
+        <para>- Hola, tú eres estudiante de francés?</para>
+        <para>- No, yo soy estudiante de portugués.</para>
+        <para>Yo hablo inglés en la escuela</para>
+        <para>Yo hablo portugués y español.</para>
+        <para>La maestra de portugués está en la escuela con un estudiante.</para>
+        <para>El camarero no es americano</para>
+        <para>La maestra no es americana.</para>
+        <para>El señor Pérez es maestro y la señora Flores es maestra.</para>
+        <para>Tú trabajas en un restaurante?</para>
+        <para>Hablas español en la escuela?</para>
+        <para>Él es camarero en un restaurante. Ella es camarera en un hotel.</para>
+        <para>Juan es mi amigo.</para>
+        <para>Sofia es mi amiga.</para>
+        <para>Él es mi amigo.</para>
+        <para>Ella es mi amiga.</para>
+        <para>Tú tienes mi dirección?</para>
+        <para>- Tienes el número de tu amiga Gabriela?</para>
+        <para>- Sí, aquí tengo el número.</para>
+        <para>Yo no soy joven.</para>
+        <para>- tú tienes un celular?</para>
+        <para>- No, y tú?. Tienes un celular?</para>
+        <para>Tú quieres ser maestra, Ana?</para>
+        <para>Yo no tengo tu dirección.</para>
+        <para>Mi amigo Jorge querie ser maestro de español en una escuela!</para>
+        <para>Yo tengo un perro grande.</para>
+        <para>María tú eres importante.</para>
+        <para>Él no es médico.</para>
+        <para>- Tienes un perro muy grande!</para>
+        <para>- Sí! Y tú tienes un perro?</para>
+        <para>Carmen es médica.</para>
+        <para>- Tú tienes una casa en la ciudad?</para>
+        <para>- No, tengo un apartamento.</para>
+        <para>Yo vivo en una ciudad.</para>
+        <para>Mi padre vive en un apartamento en una ciudad muy grande.</para>
+        <para>Mi familia es de México.</para>
+        <para>Yo vivo con mi familia en México.</para>
+        <para>Bruno vive con mi hermano.</para>
+        <para>- Mi hermana vive en tu pueblo</para>
+        <para>- Y ella tiene novio?</para>
+        <para>No, yo no vivo con mi novia.</para>
+        <para>Mi hermano trabaja en una oficina.</para>
+        <para>Mi novia vive en una casa en un pueblo bonito.</para>
+        <para>Estoy en una fiesta con mi novio! Él es un hombre muy sect1ertido!</para>
+        <para>Tu hermano es maestro? Y tu hermana es médica?</para>
+        <para>Carmen trabaja con mi hermana.</para>
+    </sect1>
+    <title>15. La escuela 2</title>
+    <sect1>
+        <para>Yo tengo dos bolígrafos.</para>
+        <para>Yo tengo tres libros.</para>
+        <para>Yo tengo un cero inglés.</para>
+        <para>El niño quiere un libro.</para>
+        <para>El maestro tiene dos libros de inglés en la escuela.</para>
+        <para>Rafael necesita un libro.</para>
+        <para>Luis, tú necesitas un libro o dos libros?</para>
+        <para>Juan tiene un libro de español y tres libros de inglés.</para>
+        <para>Yo tengo 3 bolígrafos. El bolígrafo azul es mi favorito.</para>
+        <para>Yo tengo dos libros de inglés y un libro de francés.</para>
+        <para>Miguel quiere leer mucho. Él quiere comprar 3 libros de inglés.</para>
+        <para>Sofía tiene dos bolígrafos? Hans tiene un bolígrafo.</para>
+        <para>Señor, yo tengo una pregunta.</para>
+        <para>Sí cuatro bibliotecas.</para>
+        <para>Eduardo, tienes una pregunta?</para>
+        <para>La universidad necesita comprar computadoras.</para>
+        <para>La biblioteca tiene dos computadoras.</para>
+        <para>La universidad tiene dos bibliotecas</para>
+        <para>Sí señora, yo tengo una pregunta</para>
+        <para>La estudiante tiene una pregunta y quiere hablar con el profesor.</para>
+        <para>La biblioteca necesita comprar cuatro libros.</para>
+        <para>Tengo cinco libros</para>
+        <para>Cinco computadoras</para>
+        <para>Ella trabaja en esta universidad</para>
+        <para>Este estudiante es americano</para>
+        <para>El niño quiere aprender</para>
+        <para>Señor Pérez, yo quiero aprender inglés. ¿Usted es maestro de inglés?</para>
+        <para>Yo no aprendo español</para>
+        <para>María aprende francés con Duolingo. Y tú aprendes inglés?</para>
+        <para>Amanda, aprendes español?</para>
+        <para>Sí, esta biblioteca es mi favorita.</para>
+        <para>No, gracias, no necesito este libro. Necesito ese libro.</para>
+        <para>Amanda aprende francés en Francia.</para>
+        <para>Yo tengo seis clases en la universidad.</para>
+        <para>Juan tiene ocho libros.</para>
+        <para>La clase tiene ocho estudiantes?</para>
+        <para>Yo tengo seis libros.</para>
+        <para>Hans es profesor en la universidad y este lunes tiene ocho clases de inglés.</para>
+        <para>El estudiante tiene ocho preguntas y necesita hablar con el profesor</para>
+        <para>El lunes tengo una clase de francés y dos clases de inglés.</para>
+        <para>Mi nombre es Mateo y soy profesor de inglés. Mañana tengo una clase muy sect1ertida con siete estudiantes.</para>
+        <para>Ella tiene siete libros.</para>
+        <para>No, yo no tengo preguntas.</para>
+        <para>Ella tiene tres bolígrafos.</para>
+        <para>Yo tengo tres libros.</para>
+        <para>Tengo cero dineros.</para>
+        <para>Yo necesito dos bolígrafos.</para>
+        <para>Tengo un cero en inglés.</para>
+        <para>- Tienes mi libro de inglés?</para>
+        <para>- No, no tengo tu libro. Lo siento.</para>
+        <para>- Tienes libros de español?</para>
+        <para>- No, no tengo. Necesitas uno?</para>
+        <para>Uno, dos, tres bolígrafos. Yo quiero escribir con el bolígrafo rojo.</para>
+        <para>Fred necesita leer tres libros más. Él tiene un examen importante mañana.</para>
+        <para>Yo tengo dos libros de inglés y un libro de francés.</para>
+        <para>La biblioteca necesita comprar cuatro libros.</para>
+        <para>Eduardo, tienes una pregunta?</para>
+        <para>Señor, yo tengo una pregunta.</para>
+        <para>Necesito comprar libros.</para>
+        <para>- Mi universidad es muy grande.</para>
+        <para>- Y tiene bibliotecas?</para>
+        <para>Señor, yo tengo una pregunta.</para>
+        <para>Ana, quieres estudiar en la biblioteca?</para>
+        <para>La universidad necesita comprar tres computadoras.</para>
+        <para>Tienes una computadora o dos computadoras?</para>
+        <para>Amanda trabaja en dos bibliotecas.</para>
+        <para>Esta universidad es mi favorita.</para>
+        <para>Yo trabajo en esta biblioteca</para>
+        <para>- Quieres aprender español con Duolingo o con este libro?</para>
+        <para>- Quiero aprender con Duolingo.</para>
+        <para>Ella no aprende</para>
+        <para>Yo aprendo inglés en la universidad.</para>
+        <para>- Hoy tienes clase?</para>
+        <para>- Sí, tengo tres clases hoy.</para>
+        <para>Ella tiene ocho clases</para>
+        <para>- Carlos, tienes más preguntas?</para>
+        <para>- No, no tengo más preguntas. Gracias.</para>
+        <para>Yo necesito seis libros, por favor.</para>
+        <para>Luz, tienes siete polígrafos? Tú escribes mucho!</para>
+        <para>Luis tiene una pregunta y Luz tiene ocho preguntas.</para>
+        <para>¿Sara tiene ocho estudiantes? Yo tengo un estudiante.</para>
+        <para>Yo tengo seis clases en la universidad.</para>
+        <para>Juan, tienes más preguntas?</para>
+        <para>Yo quiero siete libros.</para>
+        <para>El estudiante tiene preguntas.</para>
+    </sect1>
+    <title>16. Convenio</title>
+    <sect1>
+        <para>Un niño mexicano</para>
+        <para>El niño mexicano</para>
+        <para>Una niña mexicana</para>
+        <para>La niña mexicana</para>
+        <para>La mujer, el hombre</para>
+        <para>Yo trabajo en esta biblioteca</para>
+        <para>El hombre es cubano.</para>
+        <para>El baño está aquí.</para>
+        <para>Esta película</para>
+        <para>Mi partido favorito, mi fiesta favorita</para>
+        <para>Una niña cansada.</para>
+        <para>Un vaso bonito, una taza bonita</para>
+        <para>Miguel tiene un gato y un perro</para>
+        <para>Yo necesito este gato.</para>
+        <para>Yo tengo un gato.</para>
+        <para>Mi apartamento es perfecto.</para>
+        <para>Yo tengo una reserva</para>
+        <para>Ella está cansada. Él está cansado.</para>
+        <para>El niño</para>
+        <para>Un amigo ocupado, una amiga ocupada</para>
+        <para>El hermano favorito, la hermana favorita</para>
+        <para>La mujer está ocupada</para>
+        <para>No, él no es cubano.</para>
+        <para>Dónde está la maleta?</para>
+        <para>Este hijo, esta hija</para>
+        <para>Yo tengo una computadora.</para>
+        <para>Este niño está cansado.</para>
+        <para>Yo quiero esta chaqueta y este vestido.</para>
+        <para>Yo necesito este teléfono.</para>
+        <para>Un libro, este libro</para>
+        <para>Esta casa es bonita</para>
+        <para>No necesito esta computadora.</para>
+        <para>Este libro es mi favorito</para>
+        <para>Carmen, estás cansada?</para>
+        <para>La biblioteca es bonita</para>
+        <para>La niña es mexicana.</para>
+        <para>Pedro, trabajas en esta oficina?</para>
+        <para>Esta película es sect1ertida.</para>
+        <para>Un niño mexicano, una niña mexicana</para>
+        <para>Este boleto y esta cartera</para>
+        <para>La fiesta no es muy sect1ertida.</para>
+        <para>El hombre no está cansado.</para>
+        <para>La camisa bonita, esta camisa bonita</para>
+    </sect1>
+    <title>17. La familia 2</title>
+    <sect1>
+        <para>Tengo un hermano inteligente</para>
+        <para>Ella es italiana y su esposo, él es italiano?</para>
+        <para>Jorge vive con su madre. Ella es una mujer muy inteligente y bonita.</para>
+        <para>Tu bicicleta es muy bonita. Tu carro es bonito.</para>
+        <para>Mi hermano es italiano.</para>
+        <para>Ana, tú tienes clases de italiano en la universidad con el profesor Antonio? Él es mi padre!</para>
+        <para>Sí yo soy inteligente.</para>
+        <para>Ana y su madre</para>
+        <para>Mi padre estudia español.</para>
+        <para>Mi padre trabaja hoy.</para>
+        <para>Ana y su madre</para>
+        <para>Mi ciudad es muy bonita. Tu pueblo es bonito?</para>
+        <para>Tu madre es maestra en esta escuela?</para>
+        <para>Esta casa es muy bonita.</para>
+        <para>Luz vive en una casa pequeña y su hijo vive en un apartamento pequeño.</para>
+        <para>Fernanda tiene dos hijos.</para>
+        <para>Pedro no tiene hijos humanos. Él tiene un perro y ese es su hijo.</para>
+        <para>Ella tiene tres hijos.</para>
+        <para>Mi hermana Gabriela tiene cinco hijos, una hija, tres gatos y un perro. Ella vive con Ben, su esposo, en una casa muy grande.</para>
+        <para>Mi esposo se llama Eduardo</para>
+        <para>Mi hijo tiene un perro pequeño.</para>
+        <para>Mi esposa estudia francés.</para>
+        <para>Mi esposa trabaja en una escuela de francés muy pequeña en el pueblo. La escuela tiene cinco clases y ocho estudiantes.</para>
+        <para>Mi esposa tiene un hermano y una hermana.</para>
+        <para>El señor Pérez es mi esposo.</para>
+        <para>Vives en una ciudad pequeña?</para>
+        <para>Mi hija se llama Sofía.</para>
+        <para>Cómo se llama tu esposa.</para>
+        <para>Tú tienes un carro pequeño y vives en una casa pequeña?</para>
+        <para>Pablo tiene un hijo y dos hijas</para>
+        <para>Laura es muy simpática. John, su esposo, no es simpático.</para>
+        <para>No, su esposo no es alto. Su esposo es un hombre bajo y simpático.</para>
+        <para>Jorge es alto y su hija, Julia, ella es alta?</para>
+        <para>Yo no tengo mascotas.</para>
+        <para>Mi esposa es muy baja y tu esposo, él es bajo?</para>
+        <para>Mi hermana no es alta.</para>
+        <para>Hola, Hans. Tu amiga Andrea es muy simpática. Ella es bonita y muy inteligente. Tienes su número de teléfono?</para>
+        <para>Dónde está mi hija? Ella tiene un sombrero azul y es muy alta.</para>
+        <para>Quién tiene una mascota?</para>
+        <para>Esta niña es simpática.</para>
+        <para>Mi abuelo es español y mi madre es española.</para>
+        <para>Tú tienes diez años?</para>
+        <para>Felipe tiene una hermana joven. Ella tiene nueve años.</para>
+        <para>Mi abuelo es española. Ella vive en Francia en una casa grande con mi abuelo y su mascota.</para>
+        <para>Esta niña tiene nueve años.</para>
+        <para>Yo tengo diez años.</para>
+        <para>Mi padre se llama Juan y Luis, su padre, es mi abuelo.</para>
+        <para>Mi hermana Sofía tiene cuatro años.</para>
+        <para>Mi madre es inglesa y vive en Inglaterra.</para>
+        <para>Mi hijo tiene nueve años.</para>
+        <para>Mi abuela se llama Victoria.</para>
+        <para>Mi madre es inglesa y vive en Inglaterra</para>
+        <para>Tu padre vive en Roma. Es italiano?</para>
+        <para>Tu perro es muy bonito. Cómo se llama?</para>
+        <para>Sí yo soy inteligente</para>
+        <para>- Él es Nicolás y ese es su padre.</para>
+        <para>- Y su padre, cómo se llama?</para>
+        <para>Mi madre es una mujer muy inteligente y bonita. Ella es médica.</para>
+        <para>Quiero vivir en un pueblo bonito.</para>
+        <para>Tu bicicleta es muy bonita. ¿Tu carro es bonito?</para>
+        <para>Amanda, tu madre es muy inteligente.</para>
+        <para>El señor Pérez y su madre italiana.</para>
+        <para>Luz vive en una casa pequeña y su hijo vive en un apartamento pequeño.</para>
+        <para>Héctor tiene un esposo y seis hijos. Su familia es grande!</para>
+        <para>Yo no tengo hijos.</para>
+        <para>- Dónde estudia tu hijo?</para>
+        <para>- En una universidad pequeña.</para>
+        <para>Tengo tres hijas.</para>
+        <para>Mi esposa estudia francés</para>
+        <para>Pablo tiene un hijo y dos hijas.</para>
+        <para>Mi esposo se llama Eduardo.</para>
+        <para>Dónde vive tu esposo?</para>
+        <para>Mi hijo trabaja en un restaurante pequeño.</para>
+        <para>Trabajo en una escuela muy pequeña</para>
+        <para>Tú tienes un carro pequeño y vives en una casa pequeña.</para>
+        <para>Laura es muy simpática. John, su esposo, no es simático.</para>
+        <para>Yo no tengo mascotas.</para>
+        <para>- Aprendo francés con Pablo.</para>
+        <para>- Quién es Pablo? Es simpático?</para>
+        <para>Mi esposa es muy baja y tu esposo, él es bajo?</para>
+        <para>Yo no tengo mascotas.</para>
+        <para>- Mi espos es el hombre bajo con el abrigo rojo.</para>
+        <para>- Y quien esta con el?</para>
+        <para>Sofia es muy alta y su camiseta es muy pequena</para>
+        <para>El niño quiere ser alto.</para>
+        <para>- María es inglesa?</para>
+        <para>- No, ella es española.</para>
+        <para>Ella es española?</para>
+        <para>Tu esposo es inglés. Y tu hija? Ella es inglesa?</para>
+        <para>Mi abuela es inglesa. Ella es de Inglaterra.</para>
+        <para>Mi hermana tiene diez años</para>
+        <para>Tu abuelo es americano.</para>
+        <para>Mi madre es inglesa y vive en Inglaterra.</para>
+        <para>Cómo se llama tu abuelo?</para>
+        <para>Tengo un hermano inteligente.</para>
+        <para>Eduardo y su madre.</para>
+        <para>Ana, tú tienes clases de italiano en la universidad con el profesor Antonio? Él es mi padre!</para>
+        <para>Jorge vive con su madre. Ella es una mujer muy inteligente y bonita.</para>
+        <para>Mi padre estudia español.</para>
+        <para>Sí, yo soy inteligente.</para>
+        <para>Yo estudio con Enrique y su padre es mi profesor de italiano.</para>
+        <para>Mi novia es muy bonita.</para>
+        <para>Mi hermana necesita una oficina bonita.</para>
+        <para>Amanda, tu madre es muy inteligente.</para>
+        <para>Mi pueblo es muy bonito.</para>
+        <para>La mujer italiana es mi padre</para>
+        <para>Mi padre se llama Roberto. Él tiene un perro muy bonito. Su perro se llama Lázaro y es italiano.</para>
+        <para>Es una ciudad muy bonita.</para>
+        <para>Yo vivo con mi hija y mi gato. Mi familia es pequeña.</para>
+        <para>Pablo tiene un hijo y dos hijas.</para>
+        <para>Mi hermana Gabriela tiene cinco hijos, una hija, tres gatos y un perro. Ella vive con Ben, su esposo, en una casa muy grande.</para>
+        <para>La esposa</para>
+        <para>El esposo</para>
+    </sect1>
+    <title>18. El trabajo</title>
+    <sect1>
+        <para>Yo tengo el mensaje de la jefa. ¿Tú tienes los mensajes de la secretaria?</para>
+        <para>Rafael, tú eres el jefe?</para>
+        <para>La jefa de la oficina trabaja mucho y tiene dos secretarias.</para>
+        <para>El jefe quiere hablar con Juan.</para>
+        <para>Luz trabaja con las secretarias en la oficina. ¿Y quién trabaja con la secretaria en la fábrica?</para>
+        <para>Los jefes</para>
+        <para>Yo hablo con las jefas.</para>
+        <para>El jefe tiene dos secretarias</para>
+        <para>Él habla con las secretarias.</para>
+        <para>Sonia, tienes dos trabajos?</para>
+        <para>El trabajo en la oficina es interesante.</para>
+        <para>Él habla con las secretarias.</para>
+        <para>Sara, qué mensajes tienes hoy?</para>
+        <para>La jefa quiere beber más té.</para>
+        <para>La señora Gonzales es una mujer muy inteligente y aprendo mucho con ella en mi trabajo. Yo soy su secretaria.</para>
+        <para>Yo no escribo en inglés. Y Claudia? Ella escribe en inglés?</para>
+        <para>Rafael no trabaja aquí.</para>
+        <para>Luis escribe con un bolígrafo. Tú escribes en la computadora.</para>
+        <para>Trabajas aquí?</para>
+        <para>Tú no escribes los mensajes. Yo no escribo los mensajes.</para>
+        <para>El señor Pérez tiene dos escritorios.</para>
+        <para>Mi hija Isabel trabaja aquí en casa. Ella tiene una oficina muy cómoda y un escritorio grande. Ella escribe mucho en su trabajo.</para>
+        <para>Juan, tú escribes muy bien en español</para>
+        <para>Pedro, el jefe quiere escribir tu número de teléfono.</para>
+        <para>Tú tienes un escritorio en tu oficina?</para>
+        <para>El señor Pérez tiene dos escritorios.</para>
+        <para>Sí yo trabajo aquí, en esta oficina.</para>
+        <para>Ella necesita escribir tu dirección.</para>
+        <para>La jefa necesita escribir este mensaje en inglés.</para>
+        <para>Yo escribo los mensajes en español.</para>
+        <para>Tú escribes mucho, Rafael.</para>
+        <para>Él escribe mucho en su trabajo.</para>
+        <para>Yo tengo un problema con la secretaria.</para>
+        <para>para quién es este mensaje de francés? para tu jefa?</para>
+        <para>La secretaria escribe las cartas los lunes.</para>
+        <para>La secretaria escribe un correo electrónico en la computadora.</para>
+        <para>La secretaria tiene las cartas. Una carta es para el jefe.</para>
+        <para>Yo quiero tener un jefe simpático.</para>
+        <para>Señora, cuál es su dirección?</para>
+        <para>Yo tengo un problema en la oficina.</para>
+        <para>Bruno, cuál es tu correo electrónico?</para>
+        <para>Buenos días, jefe. Soy el señor Ortega. Tengo un problema en mi casa y hoy trabajo poco. Lo siento.</para>
+        <para>Ella escribe una carta para el jefe.</para>
+        <para>Ella trabaja poco en la oficina.</para>
+        <para>Tú lees las cartas y yo leo el correo electrónico.</para>
+        <para>El jefe quiere leer la carta ahora.</para>
+        <para>La jefa tiene un negocio interesante.</para>
+        <para>Los lunes necesito leer los mensajes de mi jefe.</para>
+        <para>Pablo tiene un negocio nuevo y trabaja mucho en la oficina. Él está muy ocupado y ahora lee muy poco en casa.</para>
+        <para>Los lunes necesito leer los mensajes de mi jefe.</para>
+        <para>Yo leo mucho en la computadora. Necesito comprar un escritorio nuevo, este escritorio es muy pequeño.</para>
+        <para>El jefe lee los mensajes ahora.</para>
+        <para>Tú lees una carta importante en la oficina.</para>
+        <para>La jefa tiene un negocio interesante.</para>
+        <para>La jefa tiene un carro nuevo.</para>
+        <para>El señor García lee en su oficina y, Anne, tú dónde lees?</para>
+        <para>Tú lees mucho en el trabajo.</para>
+        <para>Yo leo un libro en francés y mi esposo lee un libro en portugués.</para>
+        <para>Este escritorio nuevo es muy grande. Ahora estoy muy cómoda.</para>
+        <para>Yo leo mi correo electrónico en la oficina.</para>
+        <para>Pablo tiene un negocio nuevo y trabaja mucho en la oficina. Él está muy ocupado y ahora lee muy poco en casa.</para>
+        <para>Yo hablo con las jefas.</para>
+        <para>Yo tengo el mensaje de la jefa. Tú tienes los mensajes de la secretaria?</para>
+        <para>Él habla con las secretarias.</para>
+        <para>Cómo se llama tu jefa?</para>
+        <para>La secretaria necesita ayuda con el trabajo.</para>
+        <para>El jefe tiene dos secretarias.</para>
+        <para>Quién tiene los libros?</para>
+        <para>La secretaria no tiene mensajes.</para>
+        <para>Los jefes.</para>
+        <para>Sonia, tienes dos trabajos.</para>
+        <para>Las jefas Ana y Amanda.</para>
+        <para>Renato trabaja en una fábrica de chocolate. Su trabajo es perfecto!</para>
+        <para>Luz trabaja con las secretaria en la oficina. Y quién trabaja con la secretaria en la fábrica?</para>
+        <para>Yo tengo los mensajes de la secretaria.</para>
+        <para>Tú no escribes los mensajes. Yo escribo los mensajes.</para>
+        <para>Tú escribes mucho, Rafael.</para>
+        <para>Camila trabaja mucho</para>
+        <para>Yo no escribo mucho en la oficina.</para>
+        <para>La oficina tiene una computadora grande y un escritorio marrón.</para>
+        <para>La oficina tiene un escritorio grande.</para>
+        <para>La secretaria no quiere trabajar aquí.</para>
+        <para>El jefe escribe los mensajes aquí.</para>
+        <para>Yo no trabajo aquí los martes.</para>
+        <para>Yo no escribo muy bien.</para>
+        <para>El jefe escribe en su oficina.</para>
+        <para>El señor Pérez tiene dos escritorios.</para>
+        <para>Quiero escribir más en mi trabajo.</para>
+        <para>La jefa necesita escribir este mensaje en inglés.</para>
+        <para>Juan no escribe el mensaje.</para>
+        <para>Juan, tú escribes muy bien en español.</para>
+        <para>- Tengo un problema en la oficina.</para>
+        <para>- Cuál es el problema?</para>
+        <para>Wendy escribe un correo electrónico para su jefa en la computadora.</para>
+        <para>- Señor, ¿cuál es su dirección?</para>
+        <para>Mi dirección está en el correo electrónico.</para>
+        <para>La secretaria tiene las cartas. Una carta es para el jefe.</para>
+        <para>¿Cuál es tu correo electrónico?</para>
+        <para>¿Quién tiene las cartas? Yo no tengo tu carta.</para>
+        <para>Es un problema importante.</para>
+        <para>¿Cuál es el problema?</para>
+        <para>Yo quiero un jefe simpático.</para>
+        <para>Él aprende poco en su trabajo.</para>
+        <para>Tú quieres tener un trabajo</para>
+        <para>Señorita Ramos, ¿cuál es el mensaje?</para>
+        <para>La secretaria trabaja poco los viernes.</para>
+        <para>El fin de semana yo trabajo poco.</para>
+        <para>Yo quiero tener un trabajo interesante.</para>
+        <para>Yo necesito las cartas para el lunes.</para>
+        <para>¿Quieres mi correo electrónico?</para>
+        <para>Yo leo un libro en francés y mi esposo lee un libro en portugués.</para>
+        <para>Necesitas hablar con tu hijo?</para>
+        <para>No, ahora necesito trabajar.</para>
+        <para>Juan necesita leer las cartas de su jefe.</para>
+        <para>La secretaria lee los mensajes con el jefe</para>
+        <para>Este negocio es muy interesante</para>
+        <para>El jefe quiere leer la carta ahora</para>
+        <para>La jefa tiene un carro nuevo.</para>
+        <para>Tú lees y bebes café en la oficina.</para>
+        <para>Qué libro lees, Julia?</para>
+        <para>El señor Albert lee una carta.</para>
+        <para>Necesito leer este libro hoy.</para>
+        <para>Yo leo mucho en mi oficina</para>
+        <para>Ahora necesito trabajar.</para>
+        <para>Él tiene un negocio con la señora Ramos</para>
+    </sect1>
+    <title>19. Emociones</title>
+    <sect1>
+        <para>Mi hija está enferma y mi perro está enfermo.</para>
+        <para>¿Pablo, tú estás triste?</para>
+        <para>Héctor quiere hablar contigo, María. ¿Tú tienes su número de teléfono?</para>
+        <para>¿No quieres trabajar conmigo?</para>
+        <para>Camila no quiere vivir contigo?</para>
+        <para>Pedro no quiere vivir conmigo.</para>
+        <para>Estoy muy emocionada. Hoy es el cumpleaños de mi hija y tengo un regalo muy bonito.</para>
+        <para>Ella está muy emocionada.</para>
+        <para>Victoria está siempre cansada.</para>
+        <para>Lo siento yo estoy enfermo hoy.</para>
+        <para>¿Tu padre está preocupado? ¡Mi madre también está preocupada!</para>
+        <para>¿Quién está enfermo, Juan o José?</para>
+        <para>¿Por qué enojado tu maestro? Mi maestra también está enojada.</para>
+        <para>Esta mañana estoy muy cansado.</para>
+        <para>¿Luis, tú estás aburrido? ¡Yo también!</para>
+        <para>Tú siempre estás enojado.</para>
+        <para>Camila estás triste o preocupada?</para>
+        <para>Pablo, ¿por qué estás aburrido?</para>
+        <para>Camila, ¿estás triste o preocupada?</para>
+        <para>Lo siento, yo estoy muy aburrido en este concierto.</para>
+        <para>Esta mañana estoy muy cansado y necesito más café.</para>
+        <para>Mi madre está muy enojada hoy.</para>
+        <para>Lo siento, yo estoy muy aburrido en este concierto.</para>
+        <para>¿Por qué estás preocupada, Ana?</para>
+        <para>Tú también necesitas un médico.</para>
+        <para>Mi mamá siempre está contenta. ¿Por qué tu papá nunca está contento?</para>
+        <para>El señor Pérez está enfermo y necesita dormir más.</para>
+        <para>Es importante dormir bien.</para>
+        <para>Yo tengo un perro. Él nunca quiere dormir conmigo. Él siempre quiere dormir con mi mamá y mi papá.</para>
+        <para>A veces Julia está cansada.</para>
+        <para>Papá, hoy es un día muy especial. ¡Es tu fiesta de cumpleaños! Yo quiero disfrutar la fiesta contigo, con mamá y Claudia.</para>
+        <para>A veces yo estoy enojado con mi padre.</para>
+        <para>Quiero disfrutar el día.</para>
+        <para>Quiero disfrutar un café con mi padre.</para>
+        <para>Su mamá está cansada y necesita dormir.</para>
+        <para>Jorge a veces está aburrido en la escuela.</para>
+        <para>Ana siempre está contenta en la clase de francés</para>
+        <para>Ana siempre está contenta en la clase de francés</para>
+        <para>Esta mujer nunca está enojada.</para>
+        <para>Mamá, yo me siento muy mal. ¿Tú cómo te sientes?</para>
+        <para>Dúo no está sorprendido.</para>
+        <para>Yo me siento feliz con mi novio y él se siente feliz conmigo.</para>
+        <para>¿Miguel, estás sorprendido?</para>
+        <para>Mi hermano no se siente bien y yo me siento un poco cansada.</para>
+        <para>Estoy sorprendido y enojado.</para>
+        <para>A veces me siento un poco cansado en la mañana.</para>
+        <para>Pablo no se siente muy contento. Él nunca estudia y tiene un cero en inglés otra vez.</para>
+        <para>Me siento cansada hoy.</para>
+        <para>¿Quieres una hamburguesa otra vez? ¡Siempre comes hamburguesas!</para>
+        <para>Lo siento, Rafael, tú estás enfermo otra vez.</para>
+        <para>¿Cómo te sientes hoy?</para>
+        <para>Carla, ¿cómo está tu bebé esta mañana?</para>
+        <para>Camila está un poco aburrida en casa.</para>
+        <para>¿Cómo te sientes hoy?</para>
+        <para>La mujer está emocionada. ¿El hombre está emocionado?</para>
+        <para>- Hola, Yadira. ¿Cómo estás?</para>
+        <para>- Mal, estoy enferma. Y tú, ¿qué tal?</para>
+        <para>Mi abuela no está enferma. ¿Tu abuelo está enfermo?</para>
+        <para>¿Estás triste?</para>
+        <para>Ella quiere hablar contigo.</para>
+        <para>La niña está triste en la escuela.</para>
+        <para>Lo siento, yo siempre estoy ocupado.</para>
+        <para>¡Yo estoy muy emocionada!</para>
+        <para>¿Julia, tú quieres vivir conmigo?</para>
+        <para>Mariana, yo quiero vivir contigo. ¿Quieres ser mi esposa?</para>
+        <para>Pedro, hoy no quiero estudiar contigo.</para>
+        <para>Pedro no quiere vivir conmigo.</para>
+        <para>Sara, ¡tú siempre estás ocupada!</para>
+        <para>- Estoy aburrida.</para>
+        <para>- Yo también. ¿Y tú por qué?</para>
+        <para>Carlos tiene un examen importante y está preocupado.</para>
+        <para>¿Cómo estás esta mañana?</para>
+        <para>¿Carla estás bien o mal?</para>
+        <para>¿Quién está enfermo, Juan o José?</para>
+        <para>Camila, ¿estás triste o preocupada?</para>
+        <para>Él está aburrido en la fiesta. Ella también está aburrida.</para>
+        <para>Camila, estás enojada?</para>
+        <para>¿Cómo estás esta mañana, Juan?</para>
+        <para>¿Por qué estás preocupada, Amanda?</para>
+        <para>Pablo, ¿por qué estás aburrido?</para>
+        <para>¿Por qué siempre estás enojado?</para>
+        <para>¿Juan también está enfermo?</para>
+        <para>- ¿Y tu mamá? ¿Está contenta?</para>
+        <para>- Sí, y yo también.</para>
+        <para>Hoy es el concierto y María está contenta. Carlos también está contento?</para>
+        <para>La maestra está muy cansada y quiere dormir.</para>
+        <para>Es importante dormir bien.</para>
+        <para>Quiero disfrutar un café con mi papá.</para>
+        <para>Jorge a veces está aburrido en la escuela.</para>
+        <para>Rafael quiere disfrutar la fiesta.</para>
+        <para>Carolina siempre está contenta.</para>
+        <para>Esta mujer nunca está enojada.</para>
+        <para>- Hola, Micael. ¿Estás bien?</para>
+        <para>- No, me siento un poco triste.</para>
+        <para>El bebé se siente cansado y quiere dormir más.</para>
+        <para>Él bebé está enfermo.</para>
+        <para>¿Por qué estás sorprendida, Sonia?</para>
+        <para>Yo me siento feliz con mi novio y él se siente feliz conmigo.</para>
+        <para>¿Estás ocupada otra vez?</para>
+        <para>Mi hermano no se siente bien y yo me siento un poco cansada.</para>
+        <para>¿Miguel estás sorprendido?</para>
+        <para>Ella está un poco cansada y quiere dormir.</para>
+        <para>¿Cómo te sientes hoy?</para>
+        <para>Yo no me siento muy bien hoy.</para>
+        <para>Quiero beber un café contigo otra vez.</para>
+        <para>¿Sara, por qué te sientes triste?</para>
+        <para>Dúo siempre se siente feliz.</para>
+    </sect1>
+    <title>20. La gente</title>
+    <sect1>
+        <para>Nosotros hablamos español y él habla inglés.</para>
+        <para>Nosotros estudiamos medicina en la universidad.</para>
+        <para>Nosotras estudiamos en la escuela. Él estudia en la universidad.</para>
+        <para>Ella es mi madre, Carla. Somos de Cuba. Nosotras hablamos poco inglés.</para>
+        <para>La clase tiene tres hombres y cuatro mujeres.</para>
+        <para>Mi hermano y yo somos de París. Nosotros hablamos francés y estudiamos español básico en la escuela. El español es difícil.</para>
+        <para>Yo trabajo con los hombres de España.</para>
+        <para>Mariana habla con las mujeres de Estados Unidos.</para>
+        <para>Amanda y yo hablamos con la maestra.</para>
+        <para>Lo siento, nosotras no hablamos inglés.</para>
+        <para>La clase tiene 3 hombres y 4 mujeres.</para>
+        <para>Nosotros somos de la ciudad.</para>
+        <para>Nosotras somos mujeres.</para>
+        <para>A veces mi amigo y yo estudiamos los martes.</para>
+        <para>Los hombres Juan y Alberto.</para>
+        <para>Rémy y Julien son de Francia. Ellos hablan francés.</para>
+        <para>Ellas son de Francia y ella es de Canadá.</para>
+        <para>Ellas son de Madrid y estudian en la universidad. María estudia medicina y Sonia estudia portugués.</para>
+        <para>Yo quiero trabajar en dos universidades.</para>
+        <para>Mi mamá y mi papá hablan poco español. Ellos son de Inglaterra.</para>
+        <para>Yo estudio las ciudades de México.</para>
+        <para>Jorge y Sonia no hablan portugués.</para>
+        <para>Ellos son los hombres de Inglaterra y hablan en inglés con mi profesor.</para>
+        <para>Ellos son estudiantes en la universidad.</para>
+        <para>Las mujeres estudian en las universidades de España.</para>
+        <para>Dónde estudian Juan y María.</para>
+        <para>Ellos son los jefes en esta oficina.</para>
+        <para>¿Cómo son las universidades de Francia?</para>
+        <para>Ellas son Ana y Claudia, son jugadores de fútbol.</para>
+        <para>Mi hermana es jugadora de fútbol. Ella tiene un partido hoy.</para>
+        <para>El señor García tiene muchos amigos.</para>
+        <para>¿Ustedes son jugadores de béisbol? Ellas son jugadores de fútbol</para>
+        <para>La biblioteca tiene muchos libros.</para>
+        <para>Mi hijo tiene seis o siete computadoras. Él tiene muchas computadoras.</para>
+        <para>Ana, tu familia tiene muchas mujeres?</para>
+        <para>Este jugador de béisbol es de Cuba.</para>
+        <para>¿Por qué trabajas los fines de semana?</para>
+        <para>¿El señor Flores tiene muchos negocios?</para>
+        <para>Ellas nunca estudian los fines de semana.</para>
+        <para>Yo tengo muchas amigas en esta clase.</para>
+        <para>María y Clara ustedes son amigas.</para>
+        <para>Nosotros no somos jugadores de fútbol.</para>
+        <para>¿Clara y Ana, ustedes estudian los fines de semana?</para>
+        <para>Las señoras hablan español. Los señores hablan portugués.</para>
+        <para>¿Cuántos libros necesitas?</para>
+        <para>¿Cuántos hijos tienes, Luz? Yo tengo una hija.</para>
+        <para>Hijo, habla mamá. ¡Necesito unas vacaciones! ¿Quieres comprar un boleto a España conmigo?</para>
+        <para>Cuantas secretarias tienes?</para>
+        <para>Cuántos hombres estudian aquí</para>
+        <para>Señores Castro y Rivera, ¿ustedes son de los Estados Unidos?</para>
+        <para>José habla con unos estudiantes de Cuba.</para>
+        <para>Las señoras hablan inglés o español?</para>
+        <para>Señores Herrera y Lázaro, ustedes estudian portugués?</para>
+        <para>Señor Rivera, usted quiere unas vacaciones?</para>
+        <para>Señor Ortega, usted siempre está en el trabajo. ¡Usted necesita unas vacaciones ahora!</para>
+        <para>Mi amiga y yo hablamos en una fiesta muy sect1ertida.</para>
+        <para>- Nosotros no estudiamos portugués.</para>
+        <para>- Por qué? Es muy dificíl?</para>
+        <para>La camarera habla con los hombres en el restaurante.</para>
+        <para>- Nosotras no hablamos francés.</para>
+        <para>- Por qué no? Su madre es de Francia, no?</para>
+        <para>Ella es maestra de español y nosotras somos estudiantes de francés.</para>
+        <para>Esta oficina tiene diez mujeres.</para>
+        <para>Nosotras estudiamos en la escuela. Él estudia en la universidad.</para>
+        <para>A veces mi amigo y yo estudiamos los martes.</para>
+        <para>Nosotros no hablamos portugués.</para>
+        <para>Nosotros estudiamos mucho.</para>
+        <para>I work with the men from Spain.</para>
+        <para>Sofía trabaja con las mujeres de México.</para>
+        <para>Nosotros no somos de México.</para>
+        <para>Tú y yo hablamos inglés muy bien.</para>
+        <para>Ellos estudian español en la escuela.</para>
+        <para>- Ellas hablan porutgués.</para>
+        <para>- Por qué? De dónde son?</para>
+        <para>Ellos hablan portugués y él habla español.</para>
+        <para>Ellas son estudiantes de medicina en la universidad.</para>
+        <para>Ella estudia en Francia y ellas estudian en España.</para>
+        <para>Yo quiero trabajar en dos universidades.</para>
+        <para>Ellas son estudiantes en la universidad.</para>
+        <para>Este pueblo no tiene universidades.</para>
+        <para>Ellos estudian las ciudades de Europa.</para>
+        <para>Las mujeres estudian en las universidades de España</para>
+        <para>El señor Pérez a veces trabaja en dos universidades.</para>
+        <para>Ellos son los jefes en esta oficina</para>
+        <para>Jorge y Sonia no hablan portugués.</para>
+        <para>Ustedes son jugadores de béisbol? Él no es jugador de béisbol.</para>
+        <para>El perro quiere ser jugador de fútbol profesional.</para>
+        <para>Carlos y Juan son jugadores de béisbol. María y Ana son jugadoreas de fútbol.</para>
+        <para>- ¿Tú tienes muchos amigos?</para>
+        <para>- Sí, y los fines de semana siempre tengo una fiesta.</para>
+        <para>La secretaria lee muchas cartas.</para>
+        <para>La biblioteca tiene muchos libros.</para>
+        <para>Rebeca y Sonia son amigas en Facebook.</para>
+        <para>Las jugadoras de fútbol hablan inglés.</para>
+        <para>Juan, ¿tienes muchas preguntas?</para>
+        <para>Ellas nunca estudian los fines de semana.</para>
+        <para>Pedro y María, ¿hablan ustedes inglés?</para>
+        <para>Carla y Ana, ustedes estudian los fines de semana?</para>
+        <para>Nosotros no somos jugadores de fútbol.</para>
+        <para>¿Quién tiene muchos negocios?</para>
+        <para>¿Es Sonia una jugadora de beisbol?</para>
+        <para>- Hoy tengo clase en la universidad.</para>
+        <para>- Cuántas clases tienes?</para>
+        <para>El señor Chávez es de México y los señores García y Rivera son de España.</para>
+        <para>Cuántos amigos tiene Dúo? Muchos!</para>
+        <para>- Necesito unos bolígrafos. - Cuántos necesitas?</para>
+        <para>Ellos hablan con unos amigos.</para>
+        <para>Yo necesito unas vacaciones ahora.</para>
+        <para>Martín tiene unos amigos de México.</para>
+        <para>El señor López trabaja mucho y necesita unas vacaciones.</para>
+        <para>Cuántos amigos tienes en esta clase?</para>
+    </sect1>
+    <title>21. La moda</title>
+    <sect1>
+        <para>Tú tienes muchas camisetas verdes. Yo tengo una camiseta verde.</para>
+        <para>Las carteras verdes son grandes, el vestido verde es grande?</para>
+        <para>De dónde es tu ropa, Julia? Siempre usas vestidos interesantes.</para>
+        <para>Buenos días, señor. Quiero comprar tres camisetas verdes, cinco vestidos y… ¿tiene carteras grandes aquí?</para>
+        <para>Las camisetas aquí son muy grandes. Yo quiero una camiseta pequeña.</para>
+        <para>El vestido verde es muy bonito.</para>
+        <para>Ana quiere un vestido verde.</para>
+        <para>Tú tienes muchos vestidos interesantes.</para>
+        <para>Sonia quiere las carteras verdes.</para>
+        <para>Esta mujer tiene unos vestidos interesantes.</para>
+        <para>Cuántas camisetas quieres comprar?</para>
+        <para>Mi novio nunca usa camisetas verdes.</para>
+        <para>Las carteras no son muy interesantes aquí.</para>
+        <para>Sofía, tienes carteras grandes?</para>
+        <para>Yo quiero estos zapatos rojos y tú quieres estas carteras rojas.</para>
+        <para>Los pantalones rojos no son bonitos.</para>
+        <para>Hoy Rafael tiene un sombrero rojo, pantalones rojos y una camiseta roja. Su ropa es roja!</para>
+        <para>Lorena no tiene camisetas rojas.</para>
+        <para>Los jefes siempre usan pantalones nuevos en la oficina.</para>
+        <para>Estas camisetas son muy bonitas.</para>
+        <para>Juan, yo necesito tu camiseta roja.</para>
+        <para>Pedro siempre necesita pantalones grandes.</para>
+        <para>Yo quiero estos zapatos rojos.</para>
+        <para>Los hombres usan camisetas verdes en el concierto.</para>
+        <para>Yo uso una camiseta roja los viernes. Ustedes usan camisetas rojas en el trabajo?</para>
+        <para>Camila y Ana, qué zapatos usan ustedes hoy?</para>
+        <para>Ustedes necesitan camisas pequeñas? Esta camisa es pequeña.</para>
+        <para>Tus zapatos son pequeños y tu cinturón también es pequeño.</para>
+        <para>Estos pantalones son pequeños. Tú necesitan un pantalón grande.</para>
+        <para>Mis carteras son pequeñas y mis vestidos también son pequeños.</para>
+        <para>Estos zapatos son muy pequeños para mis hijos. Necesito comprar unos zapatos grandes.</para>
+        <para>Los estudiantes necesitan camisas nuevas para la escuela.</para>
+        <para>Manuel tiene un pantalón rojo, una camiseta roja y sus zapatos también son rojos.</para>
+        <para>Lo siento, yo no tengo tus camisetas nuevas.</para>
+        <para>Estos zapatos son muy pequeños.</para>
+        <para>Mi amigas siempre necesitan muchos zapatos.</para>
+        <para>María, yo necesito tus vestidos por favor.</para>
+        <para>Yo quiero comprar unos vestidos para mis amigas.</para>
+        <para>Ustedes necesitan zapatos nuevos otra vez?</para>
+        <para>Miguel no necesita sus camisas para el martes.</para>
+        <para>Las camisas nuevas son pequeñas.</para>
+        <para>Tú tienes muchas camisetas verdes. Yo tengo una camiseta verde.</para>
+        <para>Mi tienda favorita tiene vestidos muy interesantes.</para>
+        <para>Yo tengo una cartera grande y ella tiene tres carteras grandes.</para>
+        <para>Sonia quiere las carteras verdes.</para>
+        <para>Cuántas carteras tienes?</para>
+        <para>Esta mujer tiene unos vestidos interesantes.</para>
+        <para>Tú tienes muchos vestidos interesantes.</para>
+        <para>Los vestidos verdes son grandes.</para>
+        <para>Mañana quiero comprar una cartera verde.</para>
+        <para>Papá, tú necesitas una camiseta verde.</para>
+        <para>El vestido verde es muy bonito.</para>
+        <para>Qué quieres comprar? Quiero comprar unos zapatos nuevos.</para>
+        <para>Las carteras son bonitas. Y los vestidos son bonitos?</para>
+        <para>Yo queiro unos zapatos nuevos y ella quiere un vestido nuevo.</para>
+        <para>Camila y yo necesitamos vestidos nuevos.</para>
+        <para>Yo no tengo carteras bonitas.</para>
+        <para>Roberto y yo nunca usamos camisetas.</para>
+        <para>Nosotras no necesitamos carteras nuevas.</para>
+        <para>José y yo nunca usamos vestidos.</para>
+        <para>Por qué no usamos las camisetas verdes?</para>
+        <para>Las camisetas son muy bonitas. Yo quiero la camiseta verde.</para>
+        <para>Carla tiene zapatos muy bonitos.</para>
+        <para>Cuántos vestidos nuevos tienes?</para>
+        <para>Estos pantalones rojos son bonitos. Y ese pantalón rojo es bonito?</para>
+        <para>¿Quieres comprar estas carteras rojas? No, yo quiero estas carteras verdes.</para>
+        <para>Yo uso una camiseta roja los viernes. Ustedes usan camisetas rojas en el trabajo?</para>
+        <para>Estos zapatos rojos son muy bonitos.</para>
+        <para>Estas camisetas son muy bonitas.</para>
+        <para>Yo también quiero estos zapatos verdes.</para>
+        <para>Mamá, yo quiero pantalones nuevos.</para>
+        <para>Sonia, estos vestidos son muy grandes.</para>
+        <para>Juan, yo necesito tu camiseta roja.</para>
+        <para>Mamá, ¿por qué no usas estas camisetas?</para>
+        <para>Yo quiero estos zapatos rojos.</para>
+        <para>Juan y Alberto, ustedes usan los zapatos verdes?</para>
+        <para>Cuántos pantalones necesitas?</para>
+        <para>¿Tú nunca usas zapatos rojos?</para>
+        <para>Mi novio siempre usa camisetas rojas.</para>
+        <para>Lorena y Lucía usan vestidos bonitos en la fiesta.</para>
+        <para>Señor, tienes una camiseta grande? Estas camisetas son muy pequeñas.</para>
+        <para>Sus camisas son muy pequeñas. Sí, necesitan unas camisas nuevas.</para>
+        <para>Tus zapatos son pequeños y tu cinturón también es pequeño.</para>
+        <para>Juan, ¿estás feliz con tus pantalones nuevos?</para>
+        <para>Mis camisetas rojas no son bonitas.</para>
+        <para>Tengo unos vestidos pequeños.</para>
+        <para>Mis amigas siempre necesitan muchos zapatos.</para>
+        <para>La niña necesita camisetas pequeñas.</para>
+        <para>Pedro, tus pantalones son muy grandes.</para>
+        <para>El niño no quiere usar sus zapatos nuevos.</para>
+        <para>Los estudiantes necesitan camisetas y pantalones.</para>
+        <para>Mamá, por qué usas mis zapatos?</para>
+        <para>Estos vestidos son muy pequeños.</para>
+        <para>Las señoras necesitan los vestidos nuevos para el sábado.</para>
+        <para>Señor Herrera, ¿estas son sus camisas?</para>
+        <para></para>
+        <para></para>
+        <para></para>
+    </sect1>
+    <title>22. Viajar 3</title>
+    <sect1>
+        <para>Francia tiene muchos trenes.</para>
+        <para>Quieres ir a Barcelona conmigo? Es mi ciudad favorita!</para>
+        <para>Roberto necesita ir a la estación ahora.</para>
+        <para>¿Vives cerca de aquí?</para>
+        <para>Quieres viajar conmigo?</para>
+        <para>Antonio vive en España y quiere ir a Francia de vacaciones. Él está en la estación de tren.</para>
+        <para>El restaurante mexicano está muy cerca.</para>
+        <para>Juan quiere viajar a China. Él necesita su pasaporte.</para>
+        <para>Barcelona no está cerca.</para>
+        <para>La estación está cerca de la escuela.</para>
+        <para>Sí, la biblioteca está cerca.</para>
+        <para>Pablo está en la estación de tren.</para>
+        <para>Mi papá siempre necesita viajar en tren a su trabajo. Su casa está cerca de dos estaciones de tren. ¡Es perfecto para él!</para>
+        <para>El restaurante está cerca de la estación de tren?</para>
+        <para>Nosotras estamos en el café de la universidad. ¿Dónde está ella?</para>
+        <para>El parque no está cerca de aquí.</para>
+        <para>Él está en el parque y nosotros estamos en el café cerca del parque.</para>
+        <para>Esta ciudad tiene tres aeropuertos.</para>
+        <para>Dónde está el café?</para>
+        <para>Hola, Carla. Soy Josefina. Tu hermana y yo estamos en el café cerca del parque. ¿Tú dónde estás?</para>
+        <para>Yo necesito la dirección del hotel.</para>
+        <para>¡El señor García necesita ir al aeropuerto ahora!</para>
+        <para>Juan quiere ir al café en la mañana.</para>
+        <para>Yo no quiero dormir en un hotel.</para>
+        <para>El señor Martínez necesita ir al aeropuerto.</para>
+        <para>Estamos cerca del café.</para>
+        <para>La estación de tren está cerca de los parques.</para>
+        <para>Estamos en el aeropuerto de Londres.</para>
+        <para>Hoy es un día muy bonito. Dúo, quieres comer en el parque cerca del hotel?</para>
+        <para>El autobús tiene dos puertas.</para>
+        <para>El café está lejos del supermercado.</para>
+        <para>Yo nunca uso el autobús. Mi casa está muy lejos de la parada de autobús.</para>
+        <para>El café está lejos de supermercado.</para>
+        <para>Yo estoy muy lejos de mi casa.</para>
+        <para>El restaurante está al lado del hotel.</para>
+        <para>Las mujeres están en el hotel.</para>
+        <para>La parada del autobús está cerca de aquí. Está al lado de ese café.</para>
+        <para>Los estudiantes están en la parada del autobús.</para>
+        <para>El hotel tiene una puerta grande.</para>
+        <para>El aeropuerto está muy lejos, no está cerca.</para>
+        <para>El pueblo tiene dos supermercados.</para>
+        <para>No, Ana no está en casa. Ella y su novio están en el café al lado del supermercado.</para>
+        <para>Ellas están en la parada de autobús y Carla está en el parque.</para>
+        <para>El hotel está a la izquierda del banco.</para>
+        <para>Esta ciudad tiene muchos bancos.</para>
+        <para>Gloria y Julia están en el hospital. Ella está en la parada de autobús.</para>
+        <para>No, Camila no es médica. Ella trabaja en el banco a la derecha del hospital.</para>
+        <para>A la izquierda o a la derecha?</para>
+        <para>Quiero ir a la calle Vargas, por favor.</para>
+        <para>Esta mañana quiero tomar el metro. No quiero usar mi carro.</para>
+        <para>¿Quieres tomar el autobús o el metro?</para>
+        <para>El hospital también está en la calle Aguilar.</para>
+        <para>El hotel está a la derecha o a la izquierda?</para>
+        <para>Quieres tomar el autobús o el metro?</para>
+        <para>Juan, ¿quieres tomar el autobús conmigo? No quiero usar mi carro hoy.</para>
+        <para>Estamos en la calle Aguilar.</para>
+        <para>Yo necesito ir a la estación de tren.</para>
+        <para>Yo quiero ir a mi apartamento. Está cerca de la estación.</para>
+        <para>Nueva York no está cerca de California.</para>
+        <para>La estación de tren está cerca de la universidad.</para>
+        <para>Juan quiere viajar a Cancún. Él necesita unas vacaciones.</para>
+        <para>Madrid tiene muchas estaciones de tren.</para>
+        <para>La estación de tren está cerca.</para>
+        <para>Yo no quiero viajar a Barcelona.</para>
+        <para>- Necesito ir a México esta semana. - Cuándo quieres viajar? Lunes o martes?</para>
+        <para>¿Cuándo quieres ir a la estación?</para>
+        <para>¿Cuándo quieres viajar?</para>
+        <para>- Hola, Julia. Estoy en el parque cerca de tu casa. ¿Quieres ir? - María y yo ya estamos aquí, cerca del café!</para>
+        <para>Anne trabaja en el café cerca del baño.</para>
+        <para>¿Quieres ir al parque hoy?</para>
+        <para>Mi hijo y yo estamos en el parque.</para>
+        <para>Ella está en el hotel? Nosotras estamos en el aeropuerto.</para>
+        <para>¿Por qué quieres ir al hotel?</para>
+        <para>Los amigos hablan en el café.</para>
+        <para>¿Quién está en el café?</para>
+        <para>La estación está cerca del hotel.</para>
+        <para>El aeropuerto está en una ciudad grande.</para>
+        <para>Él está en el restaurante del aeropuerto.</para>
+        <para>- ¿Dónde está la parada de autobús? - Está al lado del supermercado.</para>
+        <para>La parada de autobús está al lado del hotel grande.</para>
+        <para>La puerta es pequeña.</para>
+        <para>Los hoteles están lejos de la ciudad.</para>
+        <para>¿Por qué quieres ir al supermercado?</para>
+        <para>¿El supermercado está lejos de aquí?</para>
+        <para>Lo siento, el hotel está muy lejos.</para>
+        <para>Esta es la puerta del hotel.</para>
+        <para>Manuel necesita ir al supermercado.</para>
+        <para>Ellos están en el parque ahora.</para>
+        <para>Ellas hablan en la parada del autobús.</para>
+        <para>¿El café está al lado del restaurante?</para>
+        <para>A la izquierda.</para>
+        <para>El hospital está cerca del parque.</para>
+        <para>- Necesito tomar el autobús. ¿Dónde está la parada? - A la izquierda, a lado del café.</para>
+        <para>Quieres tomar el autobús o el metro.</para>
+        <para>La estación de metro tiene muchos trenes.</para>
+        <para>Yo necesito tomar el autobús en la mañana.</para>
+        <para>La parada de autobús está a la derecha del hotel.</para>
+        <para>Yo quiero ir a la derecha y tú a la izquierda.</para>
+        <para>Los hoteles están en la calle Aguilar.</para>
+        <para>Mi abuela está en el banco conmigo. Mi mamá y mi papá están en el supermercado.</para>
+        <para>¿Por qué tú no quieres tomar el metro?</para>
+        <para>Quieres ir a Barcelona? Es mi ciudad favorita!</para>
+        <para>Yo quiero ir a Canadá con mi hermano.</para>
+        <para>El señor García necesita viajar mañana.</para>
+        <para>Carlos quiere viajar el fin de semana.</para>
+        <para>Mamá, dónde estamos en el hotel.</para>
+        <para>Blanca no está en el aeropuerto, está aquí conmigo. Estamos en el hotel.</para>
+        <para>Hola, Carla. Soy Josefina. Tu hermana y yo estamos en el café cerca del parque. Tú dónde estás?</para>
+        <para>María está en el café con su novio.</para>
+        <para>El café está cerca del hotel.</para>
+        <para>Estás cerca del restaurante ahora.</para>
+        <para>Quién está en el café.</para>
+        <para>El hotel está cerca de aquí.</para>
+        <para>Los hombres están en el café cerca del hospital.</para>
+        <para>Luis y Nicolás están aquí.</para>
+        <para>No, Ana no está en casa. Ella y su novio están en e café al lado del supermercado.</para>
+        <para>Dónde está la estación de autobuses?</para>
+        <para>La parada del autobús está cerca del parque.</para>
+        <para>El hotel está al lado de la estación de tren.</para>
+        <para>Juan, queires tomar el autobús conmigo? No quiero usar mi carro hoy.</para>
+        <para>Los hospitales están en la ciudad.</para>
+        <para>Disculpe señora, dónde está la estación de metro?</para>
+        <para>Sí, la biblioteca está a la izquierda.</para>
+        <para>Disculpe señora dónde está la calle Marsella.</para>
+        <para>La maleta está a tu derecha.</para>
+        <para>- Necesito comprar un boleto de tren. - Cúando quieres ir a la estación?</para>
+        <para>El señor Gracía necesita viajar mañana.</para>
+        <para>Queires viajar conmigo?</para>
+        <para>Mi carro está cerca.</para>
+        <para>Vives cerca de aquí?</para>
+        <para>Quieres ir a la biblioteca?</para>
+        <para>Cuándo queires ir a la estación?</para>
+        <para>Nosotras estamos en el café de la universidad. Dónde está ella?</para>
+        <para>- Hija, estás con tu hermano? - Sí, estamos aquí en el hotel.</para>
+        <para>Él está en el parque y nosotros estamos en el cafe cerca del parque.</para>
+        <para>Él aeropuerto está muy cerca de la estación.</para>
+        <para>- Hola, Julia. Estoy en el parque cerca de tu casa. Quieres ir? - María y yo ya estamos aquí, cerca del café!</para>
+        <para>- Sonia, dónde está tu mamá? Está conmigo. Estamos en el aeropuerto.</para>
+        <para>Por qué quieres ir al hotel?</para>
+        <para>Yo también quiero ir al parque.</para>
+        <para>Quieres ir al parque hoy?</para>
+        <para>Yo quiero comer un sandwich en el cafe.</para>
+        <para>- Dónde está la parada de autobús? - Está al lado del supermercado.</para>
+        <para>- ¿Dónde están los estudiantes? - Están en el parque al lado de la universidad.</para>
+        <para>El café está lejos del supermercado. La puerta es pequeña.</para>
+        <para>El autobús tiene 2 puertas.</para>
+        <para>- Disculpe, señor. ¿Dónde está el metro? - Está a la izquierda, en la calle Milagros.</para>
+        <para>- Quiero un sándwich de carne. - Aquí a la derecha está el restaurante cubano.</para>
+        <para>A la derecha.</para>
+        <para>El supermercado está a la izquierda.</para>
+    </sect1>
+    <title>23. Ocio</title>
+    <sect1>
+        <para>Necesito unas vacaciones en la playa con mi familia.</para>
+        <para>Luis, quieres caminar conmigo?</para>
+        <para>Juan y yo siempre comemos sándwiches en casa, hoy no. Hoy es un día especial y nosotros queremos comer en un restaurante elegante.</para>
+        <para>Cuándo quieres leer el periódico.</para>
+        <para>En las mañanas, mi esposa y yo siempre leemos el periódico con un café.</para>
+        <para>Por qué no comemos en la playa.</para>
+        <para>Papá, por qué no leemos este libro?</para>
+        <para>Mi familia y yo vivimos en una casa grande. ¡Las tardes siempre son divertidas aquí en la playa!</para>
+        <para>Señor, ¿cuándo quiere usted comprar las casas?</para>
+        <para>Por qué no hablamos en la tarde.</para>
+        <para>Escribes muchos correos electrónicos.</para>
+        <para>Cuantas casas tiene tu familia?</para>
+        <para>Yo siempre bebo un té en la tarde.</para>
+        <para>Pedro, tú quiers más arroz?</para>
+        <para>Nosotros queremos comer pollo hoy.</para>
+        <para>El abuelo y la abuela comen una ensalada.</para>
+        <para>Los restaurantes de la ciudad son divertidos.</para>
+        <para>Ellos quieren unas vacaciones en Italia.</para>
+        <para>Esta comida es muy buena.</para>
+        <para>No, abuela, Tamika no vive con sus papás. Tamika y Ravi ahora viven juntos en una casa en la playa.</para>
+        <para>Señor y señoras Sánchez dónde viven ustedes.</para>
+        <para>Juan y Sofía, ¿qué leen ustedes ahora?</para>
+        <para>- Estás en la playa con tu mamá? - Sí, queremos caminar un poco.</para>
+        <para>En las mañanas, mi perro y yo siempre queremos caminar en el parque.</para>
+        <para>Nosotras queremos dormir mucho el domingo.</para>
+        <para>A veces nosotras leemos libros en francés.</para>
+        <para>Renato y yo queremos caminar en la playa.</para>
+        <para>Señor Castro, ¿dónde quieres comer los sándwiches?</para>
+        <para>Yo escribo un correo electrónico. Nosotros escribimos mensajes.</para>
+        <para>- Vivimos en una casa en la calle París. - En serio!? Nosotros también!</para>
+        <para>Mis papás y yo vivimos en un apartamento.</para>
+        <para>La biblioteca tiene libros divertidos.</para>
+        <para>Cuántas casas tiene tu familia?</para>
+        <para>Mi familia tiene dos casas en la playa.</para>
+        <para>No tengo cuatro casas.</para>
+        <para>Nosotras siempre escribimos en la biblioteca.</para>
+        <para>Nosotras escribimos poco en las vacaciones.</para>
+        <para>Ellas son buenas jugadoras de fútbol.</para>
+        <para>Queremos más arroz, por favor.</para>
+        <para>Mis amigos comen en un restaurante mexicano.</para>
+        <para>Pedro, esta comida es muy buena!</para>
+        <para>Ellos quieren pollo con una ensalada.</para>
+        <para>En el verano, Isabel y su gato viven en la playa.</para>
+        <para>Lo siento, ellos no viven aquí.</para>
+        <para>Yo quiero mucho arroz, por favor.</para>
+        <para>Miguel y Antonio leen en la playa.</para>
+        <para>Ana y Sonia siempre escriben mucho.</para>
+        <para>Ella quiere abrir un restaurante mexicano.</para>
+        <para>¿Qué escriben ellos?</para>
+        <para>Yo no necesito mucho comida.</para>
+        <para>Por favor, yo necesito mucha agua.</para>
+        <para>Nosotros comemos muchas manzanas en el verano.</para>
+        <para>Mi papá y yo leemos juntos a veces.</para>
+        <para>Ellas siempre leen libros en español.</para>
+        <para>Yo quiero caminar con mi perro.</para>
+        <para>Ella quiere leer el periódico en la playa.</para>
+        <para>Nosotros queremos caminar en la ciudad. Hoy no queremos usar el carro.</para>
+        <para>Nosotras comemos en mi restaurante favorito.</para>
+        <para>Daniel y yo siempre leemos muchos libros.</para>
+        <para>Quiero caminar contigo.</para>
+        <para>Papá, por qué nno leemos este libro?</para>
+        <para>Queremos más sándwiches, por favor.</para>
+        <para>Quiero comer dos sándwiches.</para>
+        <para>Mamá, qué comemos hoy?</para>
+        <para>Nosotros leemos el periódico en español.</para>
+        <para>José, quieres unas vacaciones en la playa?</para>
+        <para>¿Cuándo quieres leer el periódico?</para>
+        <para>Nosotros escribimos cartas para la abuela. Ella nunca lee los correos electrónicos.</para>
+        <para>Por qué no hablamos en la tarde?</para>
+        <para>Señor, cuándo quieres usted comprar las casas?</para>
+        <para>La señora Herrera escribe libros divertidos.</para>
+        <para>Mi abuelo nunca escribe correos electrónicos.</para>
+        <para>No vivimos aquí.</para>
+        <para>¿Quieren comer aquí? La comida en este restaurante es muy buena.</para>
+        <para>¿Cuál es mi comida favorita? ¡La comida italiana! ¡Es muy buena! Yo siempre como pizza y pasta, y nunca como ensaladas.</para>
+        <para>Buenas tardes, ellas quieren comer pollo con arroz y yo quiero una ensalada, por favor.</para>
+        <para>Qué bien!</para>
+        <para>Ellos comen sándwiches en la playa.</para>
+        <para>Ellas comen en muchos restaurantes.</para>
+        <para>Papá, este arroz es muy bueno.</para>
+        <para>Miguel y Ana, ¿ustedes quieren comer en la playa?</para>
+        <para>Mi abuelo tiene dos restaurantes.</para>
+        <para>Nosotros comemos pollo en la tarde.</para>
+        <para>Los amigos comen en un restaurante mexicano.</para>
+        <para>Esta calle tiene restaurantes muy buenos. ¿Tú y tu familia comen aquí a veces?</para>
+        <para>Quieres comida mexicana o italiana.</para>
+        <para>Mi esposo y yo queremos abrir un restaurante nuevo en la playa, en México.</para>
+        <para>Mi hija y su novio viven en una casa en la playa. Ella está muy contenta. Ahora ellos quieren abrir un restaurante de comida italiana.</para>
+        <para>Carolina y Miguel viven juntos.</para>
+        <para>Ana y Miguel, ustedes leen mucho?</para>
+        <para>Ellas escriben mucho los fines de semana.</para>
+        <para>Ellas viven juntas.</para>
+        <para>Mi hermano y su esposa viven en Berlín.</para>
+        <para>Mi papá y mi mamá leen los fines de semana.</para>
+        <para>La niña no quiere abrir su libro</para>
+        <para>Yo leo muchos libros en el verano.</para>
+        <para>Ellas esciben muchos los fines de semana.</para>
+        <para>Ellos leen el periódico los lunes.</para>
+        <para>¿Ella quiere estudiar francés? Nosotros quieremos dormir.</para>
+        <para>- ¿Estás en la playa con tu mamá? - Sí, queremos caminar un poco.</para>
+        <para>Él no come una hamburguesa. Nosotros comemos hamburguesas.</para>
+        <para>Este pueblo tiene dos playas.</para>
+        <para>Ella lee un libro y nosotros leemos el periódico.</para>
+        <para>Luis, ¿quieres caminar conmigo?</para>
+        <para>El niño se siente contento en la playa.</para>
+        <para>Nosotros leemos el periódico en las mañanas.</para>
+        <para>¿Cuántos sándwiches quieres, Luis?</para>
+        <para>Yo vivo en la ciudad. Nosotros vivimos en un pueblo.</para>
+        <para>- Queremos tener fiestas divertidas. ¿Y ustedes? - Sí nosotras también.</para>
+        <para>Yo vivo con mi hijo. Nosotros vivimos con las mascotas.</para>
+        <para>- Hoy escribimos muchos correos electrónicos. - Nosotros también. Es muy aburrido.</para>
+        <para>Las tardes en la playa son divertidas.</para>
+        <para>Yo no tengo libros aburridos.</para>
+        <para>Yo siempre tengo muchos correos electrónicos.</para>
+        <para>Por qué no escribimos una carta?</para>
+        <para>¿Cuántas casas tiene tu familia?</para>
+        <para>Las mañanas con mi familia nunca son aburridas.</para>
+        <para>Leemos los correos electrónicos en la mañana.</para>
+        <para>Las tardes con amigos son divertidas.</para>
+        <para>- Queremos arroz. - Nosotras no. Siempre comemos arroz.</para>
+        <para>Nosotros comemos pizza, ellas comen ensalada.</para>
+        <para>- ¿Quieren un poco de vino? - Nosotras no, gracias.</para>
+        <para>La comida mexicana es mi favorita.</para>
+        <para>Ellos quieren beber vino y nosotros queremos beber café.</para>
+        <para>- Siempre comemos en restaurantes caros. - Nosotros no.</para>
+        <para>Ellos comen pollo y nosotras comemos carne.</para>
+        <para>Pedro, ¡esta comida es muy buena!</para>
+        <para>Nosotros comemos arroz con pollo en la playa.</para>
+        <para>Ellas comen arroz con pollo.</para>
+        <para>Ellos quieren comer en un restaurante.</para>
+        <para>La ciudad tiene muchos restaurantes.</para>
+        <para>Este restaurante tiene arroz muy bueno.</para>
+        <para>Este restaurante tiene un vino muy bueno.</para>
+        <para>¿Dónde comen ustedes hoy?</para>
+        <para>¿Cómo son los restaurantes de Madrid?</para>
+        <para>Esta fiesta tiene comida muy buena.</para>
+        <para>- ¿Quieres abrir tu regalo? - No, no quiero!</para>
+        <para>Fernanda y Renato leen un correo electrónico y nosotras leemos unas cartas.</para>
+        <para>Ana y Sonia viven en una casa. Mi esposo y yo vivimos en un apartamento.</para>
+        <para>Necesito abrir mi maleta.</para>
+        <para>Juan quiere abrir un restaurante.</para>
+        <para>Ellas escriben un libro juntas. Luis y yo no escribimos un libro juntos.</para>
+        <para>Él necesita mucha agua.</para>
+        <para>La niña y su abuela leen juntas en la playa.</para>
+        <para>Los veranos aquí siempre son divertidos.</para>
+        <para>Ana y Miguel, ¿ustedes leen mucho?</para>
+        <para>Queremos vivir en México en el verano.</para>
+        <para>Ellos escriben muchos correos electrónicos.</para>
+        <para>Nosotras no vivimos en Barcelona.</para>
+        <para>Laura tiene muchos amigos divertidos y está en una fiesta con ellos ahora.</para>
+        <para>Nosotros queremos dos casas en Nueva York.</para>
+        <para>Nosotros vivimos en un pueblo pequeño en México.</para>
+        <para>¿Usted tiene casas en México?</para>
+        <para>¡Mi hermano y yo comemos mucho!</para>
+        <para>Las vacaciones no son aburridas.</para>
+        <para>Nosotros vivimos en una casa en la playa.</para>
+        <para>Nosotros no queremos caminar hoy.</para>
+        <para>Pedro y yo comemos sándwiches en la playa.</para>
+        <para>Ana, ¿este es tu periódico?</para>
+        <para>Los periódicos a veces son aburridos.</para>
+        <para>Yo quiero unas vacaciones divertidas.</para>
+        <para>Nosotros siempre leemos en las vacaciones.</para>
+    </sect1>
+    <title>24. Tiempo presente 2</title>
+    <sect1>
+        <para>Tú comes pan.</para>
+        <para>Tú hablas inglés y español.</para>
+        <para>¿Señora Sánchez, usted trabaja mucho?</para>
+        <para>yo escribo, tú escribes.</para>
+        <para>trabajar, ellos trabaja.</para>
+        <para>Yo como, él come, ustedes comen.</para>
+        <para>Juan usa el teléfono.</para>
+        <para>Vivimos en Australia.</para>
+        <para>Ellas viajan mucho. ella no viaja mucho.</para>
+        <para>Tú caminas, él camina.</para>
+        <para>Nosotros necesitamos pagar la cuenta.</para>
+        <para>Nosotros necesitamos leer muchos libros. Nosotros leemos muchos libros ahora.</para>
+        <para>Tú quieres vender camisas. Tú vendes camisas en tu tienda.</para>
+        <para>Yo bebo, nosotros bebemos.</para>
+        <para>Yo aprendo, ella aprende.</para>
+        <para>¿Tú escribes en la computadora?</para>
+        <para>Vivo en Inglaterra. Quiero vivir en Francia.</para>
+        <para>Nosotros vivimos en un apartamento. Ella vive en una casa.</para>
+        <para>Yo uso, nosotras usamos, ellas usan.</para>
+        <para>Isabel come carne. Juan y Natalia comen pan.</para>
+        <para>Las estudiantes hablan inglés ahora.</para>
+        <para>Ellos escriben mucho. Nosotros no escribimos mucho.</para>
+        <para>Hablar, yo hablo, tú hablas, usted habla</para>
+        <para>Juan y Carolina abren el restaurante los viernes y sábados.</para>
+        <para>Vivir, vives, vivimos</para>
+        <para>Nosotros siempre bebemos café con azúcar.</para>
+        <para>Ellos aprenden español ahora.</para>
+        <para>abrir, yo abro, nosotros abrimos</para>
+        <para>Escribir, escribo, escribes</para>
+        <para>leer, yo leo, tú lees</para>
+        <para>Quieres vivir en México?</para>
+        <para>Ellos necesitan aprender español. Ellos aprenden español.</para>
+        <para>Ella quiere nadar. Ella nada ahora.</para>
+        <para>Usted bebe jugo de naranja. Ustedes beben jugo de naranja.</para>
+        <para>Abrir, yo abro, nosotros abrimos, ellos abren.</para>
+        <para>Comer, él come, ellos comen.</para>
+        <para>Beber, nosotros bebemos, ellas beben.</para>
+        <para>Usted come carne?</para>
+        <para>¿Tú bebes agua? ¿Usted bebe agua?</para>
+        <para>Ella come, ellas comen</para>
+        <para>Miguel lee un libro en español.</para>
+        <para>Yo leo este libro ahora.</para>
+        <para>¿Tú aprendes mucho en la escuela?</para>
+        <para>La niña abre su libro.</para>
+        <para>Aprender, ella aprende, nosotras aprendemos, ellas aprenden</para>
+        <para>Ustedes escriben mucho en la universidad.</para>
+        <para>Escribir, ustedes escriben, tú escribes</para>
+        <para>Estudiar, yo estudio, nosotros, estudiamos, ellos estudian.</para>
+        <para>Abrir, yo abro, nosotras abrimos.</para>
+        <para>Nosotros trabajamos en una oficina.</para>
+        <para>vivimos, abrimos, escribimos</para>
+        <para>Ana y María viajan a México hoy.</para>
+        <para>Abrir, ella abre, nosotras abrimos, ellas abren.</para>
+        <para>Correr, yo corro, tú corres, él corre.</para>
+        <para>Vivir, ella vive, nosotras vivimos.</para>
+        <para>¿Ustedes viven en una ciudad ahora?</para>
+        <para>Ellos quieren mirar una película. Ellos miran una película.</para>
+        <para>Tú necesitas beber agua. Tú bebes agua ahora.</para>
+        <para>ellos quieren abrir, ellos abren</para>
+        <para>Recibir, nosotras recibimos.</para>
+        <para>Queremos nadar. Nosotros nadamos ahora.</para>
+        <para>¿Dónde vive tu abuela?</para>
+        <para>Juan paga las manzanas.</para>
+        <para>Abrir, tú abres, nosotros abrimos, ellos abren</para>
+        <para>Ellos hablan, ellos comen, ellos viven</para>
+        <para>María necesita escribir. María escribe ahora.</para>
+        <para>Buscar, yo busco, ella busca, ellas buscan.</para>
+        <para>Comer, nosotros comemos</para>
+        <para>hablar, yo hablo, nosotros hablamos</para>
+    </sect1>
+    <title>25. Las actividades</title>
+    <sect1>
+        <para>Nosotras trabajamos en la oficina, ¿y ellos dónde trabajan?</para>
+        <para>Ella vive cerca de la estación. Ella toma el tren al trabajo en las mañanas.</para>
+        <para>Ellos hablan inglés.</para>
+        <para>¿Por qué Felipe quiere hablar español? Quiere viajar a España, ir al museo en Madrid y comer comida deliciosa.</para>
+        <para>Ellos hablan mucho en clase y la maestra está enojada.</para>
+        <para>Él toma el tren.</para>
+        <para>No quiero trabajar en China.</para>
+        <para>Ellos trabajam en la biblioteca.</para>
+        <para>Nosotros no tomamos el tren.</para>
+        <para>Nosotras trabajamos en una oficina.</para>
+        <para>Yo no quiero leer este libro de francés. Nosotros no leemos mucho en francés.</para>
+        <para>Tú bebes café?</para>
+        <para>Quiero comer una manzana.</para>
+        <para>Nosotros comemos en casa.</para>
+        <para>Buenas tardes, ¿esta tienda tiene sándwiches de tofu o ensaladas? Somos veganos y no comemos carne, nosotros comemos vegetales.</para>
+        <para>Ellos leen mucho.</para>
+        <para>Ellas no beben café.</para>
+        <para>Nosotros leemos juntos.</para>
+        <para>Ella necesita leer este periódico.</para>
+        <para>Nosotras vivimos en España. ¿Usted vive en Francia?</para>
+        <para>Nosotras vivimos en California.</para>
+        <para>Nosotras necesitamos abrir una carta importante. ¿Ella necesita escribir una carta?</para>
+        <para>¿Usted vive en un apartamento? Nosotras vivimos en una casa.</para>
+        <para>Ellos quieren vivir en Francia.</para>
+        <para>Ellos no abren el restaurante hoy. Está cerrado.</para>
+        <para>Yo quiero vivir en México.</para>
+        <para>Él necesita escribir.</para>
+        <para>Usted vive en Francia?</para>
+        <para>Ustedes abren muchas puertas.</para>
+        <para>Ellos escriben mucho en casa.</para>
+        <para>Necesitamos abrir un restaurante.</para>
+        <para>Nosotros aprendemos portugués y ellas aprenden francés.</para>
+        <para>Necesito comprar una computadora.</para>
+        <para>Ustedes quiere aprender?</para>
+        <para>Ella quiere aprender español.</para>
+        <para>Ella necesita salir ahora.</para>
+        <para>Ellas salen ahora.</para>
+        <para>- Hoy quiero tomar el autobús. - Yo tambien. Hoy no quiero usar el carro.</para>
+        <para>Ellos habla inglés. Tu hablas ...</para>
+        <para>Tú hablas inglés.</para>
+        <para>Ellas trabajan aquí.</para>
+        <para>Felipe necesita hablar español en el trabajo. Su jefe es de España.</para>
+        <para>Ellos quieren hablar español.</para>
+        <para>Yo quiero tomar el autobús.</para>
+        <para>Nosotros trabajamos en una escuela.</para>
+        <para>En las tardes, nosotros leemos juntos en la biblioteca.</para>
+        <para>Yo quiero beber un té. ¿Tú bebes té?</para>
+        <para>Ella come carne.</para>
+        <para>Ellos no beben vino.</para>
+        <para>¿Tú bebes vino?</para>
+        <para>Queremos comer una ensalada.</para>
+        <para>Ellos leen en casa.</para>
+        <para>Ella come en casa.</para>
+        <para>Nosotros leemos periódicos.</para>
+        <para>Ellas necesitan leer este mensaje.</para>
+        <para>- ¿Usted vive en Francia, señor Pérez? - No, yo no.</para>
+        <para>Nosotras vivimos cerca del parque y a veces comemos aquí.</para>
+        <para>- ¿Tú escribes bien en inglés? - No yo no. Mi papá sí.</para>
+        <para>Nosotros abrimos la puerta del taxi.</para>
+        <para>¿Usted vive en Francia?</para>
+        <para>Nosotros abrimos los mensajes.</para>
+        <para>José necesita escribir una carta.</para>
+        <para>Tú escribes muchas cartas.</para>
+        <para>Nosotros necesitamos abrir esta puerta.</para>
+        <para>Ella quiere vivir en Nueva York.</para>
+        <para>Nosotros compramos un carro nuevo. ¿Ustedes también compran un carro?</para>
+        <para>- Ellos aprenden portugués. - Yo también! Con Duolingo?</para>
+        <para>Bruno no tiene comida y necesita salir al supermercado ahora.</para>
+        <para>Necesito comprar este libro.</para>
+        <para>Nosotras salimos en la mañana.</para>
+        <para>Ellos salen ahora.</para>
+        <para>Nosotras no aprendemos italiano.</para>
+        <para>¿Ustedes aprenden italiano?</para>
+        <para>Él quiere salir en la mañana.</para>
+        <para>Necesito comprar una casa.</para>
+        <para>Ellas compran café.</para>
+        <para>Nosotras aprendemos inglés.</para>
+        <para>Ana, ¿tú trabajas en esta oficina? ¡John y yo también trabajamos aquí!</para>
+        <para>Ellas trabajan en una oficina con mi padre, él es su jefe.</para>
+        <para>Ellos hablan francés.</para>
+        <para>Natalia no toma el autobús.</para>
+        <para>Nosotros trabajamos aquí.</para>
+        <para>Quiero trabajar en un restaurante.</para>
+        <para>Ellos hablan mucho.</para>
+        <para>Tú hablas mucho.</para>
+        <para>Ella quiere trabajar en México.</para>
+        <para>Nosotros tomamos el tren.</para>
+        <para>Ellos quieren hablar Español.</para>
+        <para>Ellos trabajan en la biblioteca.</para>
+        <para>Ustedes necesitan tomar el tren.</para>
+        <para>Los viernes nosotros comemos hamburguesas de pescado en ese restaurante.</para>
+        <para>Ellos leen en la biblioteca los fines de semana.</para>
+        <para>Ellas beben café.</para>
+        <para>Nosotros leemos mucho.</para>
+        <para>Nosotros comemos carne.</para>
+        <para>¿Ustedes beben té?</para>
+        <para>Ellos leen juntos.</para>
+        <para>Quiero beber un café.</para>
+        <para>Él no quiere leer este periódico.</para>
+        <para>Tú bebes té.</para>
+        <para>Nosotras vivimos en un apartamento cerca del parque. Y ustedes, ¿dónde viven?</para>
+        <para>Mary tiene un nuevo trabajo en un periódico. Ella necesita escribir tres artículos esta semana.</para>
+        <para>Nosotras vivimos en Inglaterra.</para>
+        <para>Tú escribes muy bien.</para>
+        <para>Quieremos vivir en Inglaterra.</para>
+        <para>Nosotros abrimos las puertas.</para>
+        <para>Usted vive en Francia.</para>
+        <para>Usted vive en California?</para>
+        <para>Tú escribes mucho.</para>
+        <para>Ellas escriben mucho en casa.</para>
+        <para>Carmen necesita escribir un mensaje.</para>
+        <para>Necesitamos abrir la maleta.</para>
+        <para>Necesitamos abrir esta puerta.</para>
+        <para>Ellas escriben bien en Italiano.</para>
+        <para>Necesito comprar unos zapatos en la tienda de ropa. ¿Tienes dinero?</para>
+        <para>¿Quieres salir ahora?</para>
+        <para>Martín y yo siempre salimos los fines de semana. A veces comemos en restaurantes en la ciudad.</para>
+        <para>Nosotros salimos en la tarde.</para>
+        <para>Él quiere aprender italiano.</para>
+        <para>Ustedes aprenden italiano.</para>
+        <para>Ella quiere aprender francés.</para>
+        <para>Nosotras compramos un café.</para>
+        <para>Nosotros compramos un carro.</para>
+        <para>Nosotras aprendemos mucho.</para>
+        <para>Quiero salir ahora.</para>
+        <para>Ustedes salen ahora?</para>
+        <para>Nosotros no aprendemos mucho.</para>
+        <para>Ellas aprenden en la escuela.</para>
+        <para>Ella salen ahora.</para>
+        <para>Ellas compran un periódico.</para>
+        <para>Necesito comprar un bolígrafo.</para>
+        <para>¿Tú hablas portugués? Y, Mario y Juan, ¿ellos hablan francés?</para>
+        <para>- Mis hijos trabajan aquí. - Yo también!</para>
+        <para>Necesito hablar español.</para>
+        <para>- Hoy trabajamos en la tarde en la oficina. - Yo también! comemos juntos cerca de la oficina?</para>
+        <para>Ellos hablan italiano.</para>
+        <para>Nosotras tomamos el autobús.</para>
+        <para>Nosotros trabajamos en la casa.</para>
+        <para>Juan no toma el tren.</para>
+        <para>Nosotras no tomamos el autobús.</para>
+        <para>Él no quiere tomar el tren.</para>
+        <para>Tú necesitas tomar el tren.</para>
+        <para>Queremos trabajar en Nueva York.</para>
+        <para>Tu trabajas mucho.</para>
+        <para>Tú hablas francés.</para>
+        <para>Ellos quieren trabajar en una universidad.</para>
+        <para>Nosotros leemos los libros de francés. Yo no quiero leer este libro.</para>
+        <para>- Ellas beben té con leche. ¿Y ustedes? - Nosotras también, por favor. Gracias.</para>
+        <para>¿Tú bebes vino? Yo también quiero beber vino.</para>
+        <para>- Mi esposa quiere leer este libro. - Nosotros también. Es muy popular.</para>
+        <para>Ella come sándwiches.</para>
+        <para>Nosotros leemos libros.</para>
+        <para>Ellos leen periódicos.</para>
+        <para>Nosotros comemos pollo.</para>
+        <para>Ellos beben leche.</para>
+        <para>Yo quiero leer este libro.</para>
+        <para>Tú bebes leche?</para>
+        <para>Ellos quieren comer una ensalada.</para>
+        <para>Ellos leen libros.</para>
+        <para>Yo no quiero beber vino.</para>
+        <para>Él no quiere comer una manzana.</para>
+        <para>- ¿Tú escribes bien en inglés? - No, yo no. Mi papá sí.</para>
+        <para>Él necesita escribir una carta. Nosotros necesitamos abrir unas cartas.</para>
+        <para>Tú vives en México?</para>
+        <para>Nosotros vivimos aquí</para>
+        <para>Nosotras abrimos las cartas.</para>
+        <para>Ella necesita escribir un libro.</para>
+        <para>Ellos abren en la mañana.</para>
+        <para>Ellas escriben mucho.</para>
+        <para>Nosotros queremos vivir en Inglaterra.</para>
+        <para>Ellas abren muchas cartas.</para>
+        <para>Ellas escriben bien en francés.</para>
+        <para>Nosotros necesitamos abrir la maleta.</para>
+        <para>Nosotras no abrimos esta puerta.</para>
+        <para>Tú escribes bien en español.</para>
+        <para>- ¡Queremos salir y caminar en la playa! - Cuándo? Yo tambien quiero salir!</para>
+        <para>Julia y Hans no aprenden en la universidad, nosotras aprendemos en la universidad.</para>
+        <para>- Necesito comprar más leche. - Yo también.</para>
+        <para>Ustedes compran el pollo y nosotras compramos la carne.</para>
+        <para>Yo necesito comprar un carro.</para>
+        <para>Nosotros salimos ahora.</para>
+        <para>Nosotros compramos un periódico.</para>
+        <para>Ellos compran pollo.</para>
+        <para>Ellos aprenden poco.</para>
+        <para>Ellos salen en la tarde.</para>
+    </sect1>
+    <title>26. Preferencia</title>
+    <sect1>
+        <para>Me gusta mucho el queso. Yo siempre como mi ensalada con queso.</para>
+        <para>¡Este pastel de chocolate es para mi mamá porque hoy es su cumpleaños!</para>
+        <para>Quiero dos chocolates, por favor.</para>
+        <para>El chocolate tiene azúcar.</para>
+        <para>Estos son mis quesos favoritos.</para>
+        <para>Quiero dos chocolates, por favor.</para>
+        <para>¿Estas son tus pizzas favoritas? Estos son mis pasteles favoritos.</para>
+        <para>Miguel, ¿necesitas azúcar en tu café?</para>
+        <para>Cuántos pasteles quieres?</para>
+        <para>Me gusta este pastel porque es grande.</para>
+        <para>Me gusta mucho el queso.</para>
+        <para>La niña quiere azúcar en su manzana.</para>
+        <para>Estos son mis quesos favoritos.</para>
+        <para>No quiero este pastel porque no me gusta el chocolate. ¿Tienes pastel de manzana?</para>
+        <para>Yo no tengo comidas favoritas.</para>
+        <para>Nosotros queremos algo con azúcar.</para>
+        <para>Quiero comprar algo bonito.</para>
+        <para>Queremos dos sombreros bonitos.</para>
+        <para>Bruno, ¿te gusta ese sombrero?</para>
+        <para>Ella quiere comer algo ahora.</para>
+        <para>Creo que esa falda es muy bonita, pero es muy pequeña.</para>
+        <para>¡Tengo una falda nueva! Quiero usar esta falda en la fiesta porque mis vestidos son aburridos. ¿Te gusta?</para>
+        <para>Ella no usa vestidos, pero usa faldas.</para>
+        <para>No me gusta este sombrero rojo, pero los sombreros verdes sí.</para>
+        <para>Ana, qué vestido te gusta?</para>
+        <para>Creo que Carmen es muy bonita.</para>
+        <para>Me gusta esa camisa porque es bonita.</para>
+        <para>¿Te gusta ese libro? Creo que es interesante, pero un poco aburrido.</para>
+        <para>Me gusta mucho el sombrero rojo.</para>
+        <para>Pablo, quieres beber algo?</para>
+        <para>Me encanta dibujar con mis bolígrafos nuevos. ¡Son muy buenos!</para>
+        <para>Ellos nunca quieren nadar en la piscina.</para>
+        <para>Bruno, ¡te encanta nadar! Siempre estás en la piscina. ¿Quieres ir hoy conmigo?</para>
+        <para>¿Cuándo quieres ir a la piscina?</para>
+        <para>Me gusta correr en la playa.</para>
+        <para>Carmen, te gusta nadar?</para>
+        <para>Yo creo que te encanta jugar al fútbol.</para>
+        <para>Me encanta Duolingo.</para>
+        <para>Me gusta correr porque es divertido.</para>
+        <para>Me encanta jugar con mi perro los fines de semana en el parque. ¡Es muy divertido!</para>
+        <para>Qué quieres dibujar.</para>
+        <para>Te gusta correr en el parque.</para>
+        <para>Me encanta dibujar en la escuela.</para>
+        <para>Este pueblo no tiene piscinas.</para>
+        <para>¿Por qué te encanta nadar?</para>
+        <para>Mi perro es viejo y mi ropa también es vieja.</para>
+        <para>Estos zapatos son muy elegantes.</para>
+        <para>¿Cuántos perros tienes?</para>
+        <para>Estas bicicletas son muy viejas. Necesitamos comprar unas bicicletas nuevas.</para>
+        <para>Ella tiene dos bicicletas nuevas.</para>
+        <para>Creo que las chicas en mi escuela son muy elegantes. Siempre usan ropa muy bonita.</para>
+        <para>Me gusta la música de Madonna.</para>
+        <para>Dónde están los perros.</para>
+        <para>La música de Diego es interesante.</para>
+        <para>Me gusta ese chico alto.</para>
+        <para>La novia de José tiene dos perros bonitos.</para>
+        <para>José, tus bicicletas son bonitas.</para>
+        <para>Estos zapatos son muy elegantes.</para>
+        <para>El carro de mi novio no es viejo.</para>
+        <para>La ropa de ese chico es interesante.</para>
+        <para>- ¿Quieres más queso? - Sí, me gusta mucho este queso.</para>
+        <para>No quiero comer este sándwich porque no como carne. Soy vegana.</para>
+        <para>Este chocolate es muy bueno.</para>
+        <para>Yo quiero café porque estoy cansado.</para>
+        <para>Estos son mis quesos favoritos.</para>
+        <para>Miguel, necesitas azúcar en tu café.</para>
+        <para>La niña quiere un pastel para su cumpleaños.</para>
+        <para>Me gusta mucho el queso.</para>
+        <para>¿Cuántos chocolates quieres?</para>
+        <para>Yo quiero un café con azúcar, por favor.</para>
+        <para>- ¿Te gusta ese libro? - No, creo que es aburrido.</para>
+        <para>Queremos dos sombreros bonitos.</para>
+        <para>Yo creo que este sombrero es bonito.</para>
+        <para>Carmen, ¿qué falda te gusta?</para>
+        <para>Pablo, quieres beber algo?</para>
+        <para>Yo tengo dos faldas nuevas.</para>
+        <para>Ana, ¿te gusta mi falda nueva?</para>
+        <para>Tus zapatos son bonitos pero pequeños.</para>
+        <para>Me gusta esa camisa porque es bonita.</para>
+        <para>Yo creo que estos libros son muy interesantes.</para>
+        <para>No me gusta ese vestido porque es grande.</para>
+        <para>Yo quiero ser médico, pero soy demasiado joven.</para>
+        <para>- ¿Quieres dibujar conmigo? - No, gracias. No me gusta.</para>
+        <para>Pelé, ¿te encanta jugar al fútbol? - Yo creo que sí.</para>
+        <para>Sonia quiere correr en la mañana.</para>
+        <para>Me encanta caminar en la playa.</para>
+        <para>No me gusta nadar.</para>
+        <para>No quiero nadar pero quiero correr.</para>
+        <para>No me gusta jugar al béisbol.</para>
+        <para>Yo creo que te encanta jugar al fútbol.</para>
+        <para>Papá, me gusta mucho dibujar.</para>
+        <para>No te encanta el español?</para>
+        <para>- ¿Te gusta la música rock? - Sí, me encanta!</para>
+        <para>Yo creo que las chicas son elegantes.</para>
+        <para>Ella tiene dos bicicletas nuevas.</para>
+        <para>Yo tengo un carro viejo.</para>
+        <para>La música en este concierto es muy bonita. ¡Me encanta!</para>
+        <para>¿Dónde están las chicas?</para>
+        <para>Yo no uso ropa elegante.</para>
+        <para>La música de Diego es interesante.</para>
+        <para>Pablo, te gusta esa chica?</para>
+        <para>Yo no uso ropa elegante.</para>
+        <para>Me gusta mucho el queso: yo como sándwiches de queso, arroz con queso y ensalada con queso. ¡Siempre como queso y más queso!</para>
+        <para>Estos son mis chocolates favoritos.</para>
+        <para>Quiero dos chocolates, por favor.</para>
+        <para>Este pastel es para mi abuelo.</para>
+        <para>Estos son mis quesos favoritos.</para>
+        <para>Ella quiere este café porque tiene leche.</para>
+        <para>Estas son mis playas favoritas.</para>
+        <para>Estos son mis quesos favoritos.</para>
+        <para>Sonia y Carlos, ¿quieren dos pasteles?</para>
+        <para>Miguel, ¿necesitas azúcar en tu café?'</para>
+        <para>Yo creo que estos libros son muy interesantes.</para>
+        <para>Ana, ¿te gusta mi falda nueva?</para>
+        <para>Queremos dos sombreros bonitos.</para>
+        <para>Nosotros queremos algo con azúcar.</para>
+        <para>Ella no usa vestidos, pero usa faldas.</para>
+        <para>¿Ustedes quieren comer algo ahora?</para>
+        <para>Creo que Jorge es muy simpático.</para>
+        <para>¿Por qué no te gusta esa película? ¿Es muy aburrida?</para>
+        <para>Ella quiere comer algo ahora.</para>
+        <para>¿Te gusta ese vestido?</para>
+        <para>Pablo, quieres beber algo?</para>
+        <para>El niño quiere dibujar un perro.</para>
+        <para>¿Te encanta viajar con tu perro?</para>
+        <para>¿Te gusta correr en el parque?</para>
+        <para>¿Cuándo quieres jugar al fútbol?</para>
+        <para>¿Qué quieres dibujar?</para>
+        <para>Porque te gusta dibujar?</para>
+        <para>No me gusta jugar al béisbol.</para>
+        <para>¿Qué comida te encanta?</para>
+        <para>José y Ana, quieren nadar mañana?</para>
+        <para>No quiero nadar, pero quiero correr.</para>
+        <para>Me encanta correr con mi perro en el parque. ¡Es mi actividad favorita!</para>
+        <para>Mi familia tiene muchos perros. Mi perro favorito tiene diez años y es muy viejo.</para>
+        <para>¿Te gusta la musica de Madonna?</para>
+        <para>Tus zapatos no son viejos.</para>
+        <para>Ella tiene dos bicicletas nuevas.</para>
+        <para>Yo no uso ropa elegante.</para>
+        <para>Amanda, me gusta tu ropa. Creo que tu sombrero nuevo es muy elegante y tu vestido es muy interesante.</para>
+        <para>Yo quiero tener dos perros pequeños.</para>
+        <para>El carro de mi novio no es viejo.</para>
+        <para>Mi abuelo tiene camisas elegantes.</para>
+        <para>- ¿Qué pastel quieres para la fiesta? - Me gusta el pastel de chocolate.</para>
+        <para>- ¿Por qué siempre comes chocolate? - Porque me gusta.</para>
+        <para>Ella quiere este café porque tiene leche.</para>
+        <para>Miguel, ¿necesitas azúcar en tu café?</para>
+        <para>Él quiere este sándwich porque tiene pollo.</para>
+        <para>La niña quiere un pastel para su cumpleaños.'</para>
+        <para>Yo no quiero azúcar en mi té, gracias.</para>
+        <para>- ¿Te gusta el sombrero azul? - Sí, creo que es bonito.</para>
+        <para>Queremos dos sombreros bonitos.</para>
+        <para>Pablo, quieres beber algo?</para>
+        <para>Señor, ¿usted quiere esa camisa?</para>
+        <para>- ¿Quieres jugar al fútbol conmigo? - No me gusta el fútbol.</para>
+        <para>- Hans, ¿quieres correr en el parque? - No me gusta correr, pero sí caminar.</para>
+        <para>Me gusta correr porque es divertido.</para>
+        <para>- ¿Quieres ir a la piscina? - No me gusta nadar.</para>
+        <para>¿Qué quieres dibujar?</para>
+        <para>No me gusta jugar al béisbol.</para>
+        <para>Me gusta mucho nadar con mis amigos.</para>
+        <para>Sí, me encanta también el futbol.</para>
+        <para>¿No te encanta el español?</para>
+        <para>Estos zapatos son muy elegantes.</para>
+        <para>Esta camiseta es muy vieja.</para>
+        <para>Los perros de Carla son grandes.</para>
+        <para>Esa chica tiene una bicicleta bonita.</para>
+        <para>La música de Michael es mi favorita.</para>
+        <para>¿Dónde está la ropa de tu hermano?</para>
+    </sect1>
+    <title>27. Las rutinas</title>
+    <sect1>
+        <para>Yo voy a la universidad en la mañana. ¿Tú vas en la tarde?</para>
+        <para>Ella va al cine y yo voy a la playa.</para>
+        <para>Mi hijo a menudo va a la biblioteca. Él siempre tiene muchos libros nuevos y lee todas las noches.</para>
+        <para>¿Tú vas a México a menudo?</para>
+        <para>Yo voy al parque a menudo.</para>
+        <para>Ellos comen carne a menudo.</para>
+        <para>Todos los miércoles en la noche, mi mamá va al cine con sus amigas.</para>
+        <para>Yo voy a la biblioteca todos los martes.</para>
+        <para>Manuel va al concierto con Patricia.</para>
+        <para>Tú vas a la oficina en autobús.</para>
+        <para>Nosotros vamos a la fiesta. ¿Ustedes también van?</para>
+        <para>Mi hermano siempre quiere mirar una película en la televisión en la noche.</para>
+        <para>¿Ellos van al parque hoy? Nosotros vamos en la tarde.</para>
+        <para>Yo estudio español todos los días.</para>
+        <para>Mi novio y yo salimos juntos los sábados. Nosotros siempre vamos a un restaurante nuevo.</para>
+        <para>En el verano nosotros vamos a la playa todos los sábados en la noche.</para>
+        <para>Ellos comen a las diez y media.</para>
+        <para>Ellos van a mirar una película en el cine a las ocho y media.</para>
+        <para>Yo trabajo dos días esta semana.</para>
+        <para>Necesito trabajar los sábados.</para>
+        <para>¿Tú quieres mirar televisión otra vez?</para>
+        <para>Cuántos días quieres viajar?</para>
+        <para>Yo voy a mi trabajo a las siete y media.</para>
+        <para>Por qué no vamos al parque hoy?</para>
+        <para>Ellos quieren también mirar la televisión.</para>
+        <para>Yo tengo que leer un libro en francés hoy. ¿Tú qué tienes que leer, Juan?</para>
+        <para>Claudia tiene que estudiar mucho hoy. ¡Yo no tengos que estudiar!</para>
+        <para>Tú tienes que trabajar los lunes y tu hermano tiene que trabajar los martes.</para>
+        <para>Yo también me levanto a las ocho.</para>
+        <para>Yo siempre me ducho en la noche, a las nueve y media.</para>
+        <para>Ella estudia tres horas todos los días.</para>
+        <para>Los sábados trabajo mucho y los domingos me levanto cansada.</para>
+        <para>¿Tienes que trabajar los sábados?</para>
+        <para>Tengo que estudiar.</para>
+        <para>El niño tiene que leer mucho para la clase.'</para>
+        <para>Tú tienes que estudiar más.</para>
+        <para>Los domingos no me ducho.</para>
+        <para>A menudo me levanto a las diez.</para>
+        <para>Hola, mamá. ¡Mis vacaciones son perfectas! En la mañana, me levanto a las diez, me ducho y como mucho. Y, en las tardes, voy a la playa.</para>
+        <para>Los sábados, yo me levanto a las once. ¿Y tú?, ¿a qué hora te levantas?</para>
+        <para>¿Tú te duchas ahora? OK, yo me ducho en la tarde.</para>
+        <para>¿A qué hora se levanta tu mamá en la mañana?</para>
+        <para>Todos los días, mi esposo se ducha en la mañana y yo me ducho en la tarde.</para>
+        <para>A menudo comemos a las once.</para>
+        <para>A qué hora vas a la biblioteca.</para>
+        <para>Siempre duchas a las ocho?</para>
+        <para>Siempre te levantas a las siete?</para>
+        <para>Mi hermano no se ducha todos los días.</para>
+        <para>Por qué no te duchas todos los días?</para>
+        <para>Los domingos me levanto a las doce.</para>
+        <para>El niño nunca se levanta a las siete los sábados.</para>
+        <para>¿A qué hora te duchas?</para>
+        <para>Roberto se levanta a las siete y se ducha. Él va a su trabajo y, en la tarde, va al parque con su perro y sus hijos.</para>
+        <para>Hija, a menudo te levantas a las doce y nunca comes conmigo. ¿Te sientes bien? ¿Estás triste?</para>
+        <para>- ¿Estudias en la noche? - Sí, a menudo. Trabajo mucho en el día.</para>
+        <para>- ¿Vas al cine con tu mamá? - Sí, a menudo.</para>
+        <para>¿Tú vas al concierto mañana? Ella también va al concierto.</para>
+        <para>A menudo voy al cine con mis amigos. ¡Es muy divertido!</para>
+        <para>Yo voy al parque todos los fines de semana.</para>
+        <para>Todas las tardes, voy al parque con mi perro.</para>
+        <para>¿Tú vas a la universidad?</para>
+        <para>José trabaja en la fábrica todas las noches.</para>
+        <para>Vas al cine esta noche?</para>
+        <para>El señor Castro no va al trabajo hoy.</para>
+        <para>Ella a menudo estudia en la biblioteca.</para>
+        <para>¿Tú vas a Guatemala todos los años?</para>
+        <para>A veces voy a la oficina en la tarde.</para>
+        <para>¿Cuándo quieres ir al cine?</para>
+        <para>Ana nunca estudia en la noche.</para>
+        <para>- ¿Quién quiere mirar la televisión? - Yo no. Necesito estudiar.</para>
+        <para>¿Ellos van al parque hoy? Nosotros vamos en la tarde.</para>
+        <para>- Yo leo el periódico todos los días. - Yo no, es muy aburrido.</para>
+        <para>Yo quiero mirar la televisión con mi hija esta noche.</para>
+        <para>Necesito trabajar los sábados.</para>
+        <para>Ellos van al trabajo a las siete.</para>
+        <para>La niña va a la clase a las nueve y media.</para>
+        <para>Ella lee un libro todos los días.</para>
+        <para>Los sábados comemos comida italiana con un vino muy bueno.</para>
+        <para>Ellos van a la universidad en el verano.</para>
+        <para>Muchos días trabajo en casa.</para>
+        <para>Ellas también quieren mirar televisión.</para>
+        <para>Roberto y yo vamos a la biblioteca.</para>
+        <para>Él siempre bebe su café a las seis y media.</para>
+        <para>Todos los sábados comemos pollo.</para>
+        <para>Nosotros vamos a África a menudo.</para>
+        <para>Yo tengo que leer un libro en francés hoy. ¿Tú qué tienes que leer, Juan?</para>
+        <para>- ¿Trabajas hoy? - Sí, tengo que ir a la oficina ahora.</para>
+        <para>Claudia tiene que estudiar mucho hoy. ¡Yo no tengo que estudiar!</para>
+        <para>Ana tiene que caminar a la escuela.</para>
+        <para>Necesito dormir ocho horas.</para>
+        <para>A menudo me levanto a las diez.</para>
+        <para>Mi abuelo y mi abuela van a caminar los domingos en la noche.</para>
+        <para>Yo tengo que comer en media hora.</para>
+        <para>Yo nunca estudio los domingos.</para>
+        <para>A veces me levanto un poco cansado.</para>
+        <para>Tienes que ir a la escuela hoy?</para>
+        <para>Tú tienes que estudiar más.</para>
+        <para>A veces me levanto un poco cansado.</para>
+        <para>Los domingos no me ducho.</para>
+        <para>A menudo yo me ducho a las siete.</para>
+        <para>- Quiero ir al cine hoy. ¿Vamos? - A qué hora? Necesito estudiar en la tarde.</para>
+        <para>Los sábados Ana se levanta, se ducha y tiene un partido de fútbol.</para>
+        <para>- ¿Quieres ir a la playa mañana? - Sí, a qué hora?</para>
+        <para>¿Tú te duchas ahora? OK, yo me ducho en la tarde.</para>
+        <para>¿Tú te levantas a las siete y tu hijo se levanta a las doce?</para>
+        <para>Claudia, los viernes te levantas cansada. ¿Trabajas mucho los jueves?</para>
+        <para>Nosotros trabajamos a las doce.</para>
+        <para>La niña se ducha todas las mañanas.</para>
+        <para>¿Siempre te levantas a las siete?</para>
+        <para>La familia come a las doce todos los días.</para>
+        <para>El señor Pérez a veces se ducha en el hotel.</para>
+        <para>José, tú siempre te duchas en la noche.</para>
+        <para>Manuel quiere mirar el partido a las once.</para>
+        <para>El niño nunca se levanta a las siete los sábados.</para>
+        <para>Ella siempre está ocupada a las once.</para>
+        <para>A menudo yo voy al parque con mis amigos en la noche.</para>
+        <para>Bruno va al cine a menudo. Las películas españolas son sus favoritas.</para>
+        <para>¿Tú vas a la universidad?</para>
+        <para>Tú nunca vas a la biblioteca.</para>
+        <para>Yo nunca voy al cine.</para>
+        <para>Todos los miércoles en la noche, mi mamá va al cine con sus amigas.</para>
+        <para>Yo nunca voy al cine.</para>
+        <para>Yo voy al parque todos los fines de semana.</para>
+        <para>Yo voy a la biblioteca todos los martes.</para>
+        <para>A veces voy a la oficina en la tarde.</para>
+        <para>Quiero ir al cine con mis amigos.</para>
+        <para>Tú vas a Guatemala todos los años?</para>
+        <para>Manuel va al concierto con Patricia.</para>
+        <para>Tú vas a la oficina en autobús.</para>
+        <para>A menudo voy a la escuela en bicicleta con Diego. Yo uso poco el carro.</para>
+        <para>Ana nunca estudia en la noche.</para>
+        <para>Todos los días.</para>
+        <para>Mi hermano siempre quiere mirar una película en la televisión en la noche.</para>
+        <para>En el verano nosotros vamos a la playa todos los sábados en la noche.</para>
+        <para>El niño siempre quiere mirar televisión.</para>
+        <para>A veces estudio los sábados</para>
+        <para>Ellos van a mirar una película en el cine a las ocho y media.</para>
+        <para>No vamos a la oficina los sábados.</para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+    </sect1>
+    <title>1. Le basi 1 (Los basicos 1)</title>
+    <sect1>
+        <para>Io sono una ragazza.</para>
+        <para>La donna.</para>
+        <para>Io sono una donna.</para>
+        <para>L'oumo.</para>
+        <para>Un ragazzo.</para>
+        <para>Io sono un ragazzo.</para>
+        <para>Lui mangia.</para>
+        <para>Lei mangia la mela.</para>
+        <para>Lui è un ragazzo.</para>
+        <para>Tu sei un ragazzo; io sono un uomo.</para>
+        <para>Lei è una donna.</para>
+        <para>Il ragazzo mangia la mela.</para>
+        <para>Tu sei una ragazza.</para>
+        <para>Tu sei l'uomo.</para>
+        <para>Il ragazzo mangia la mela.</para>
+        <para>Lui è il ragazzo.</para>
+        <para>Io bevo.</para>
+        <para>Lui mangia il pane.</para>
+        <para>Lei mangia pane.</para>
+        <para>Lei beve l'acqua.</para>
+        <para>Tu bevi l'acqua.</para>
+        <para>Tu mangi la mela.</para>
+        <para>Io mangio lo zucchero.</para>
+        <para>Tu mangi</para>
+        <para>Tu bevi.</para>
+    </sect1>
+    <title>2. Le basi 2 (Los basicos 2)</title>
+    <sect1>
+        <para>Loro sono donne.</para>
+        <para>Loro sono uomini.</para>
+        <para>Noi siamo donne, loro sono uomini.</para>
+        <para>Loro sono ragazzi.</para>
+        <para>Loro sono ragazze.</para>
+        <para>Loro sono uomini, noi siamo ragazzi.</para>
+        <para>Siamo ragazze.</para>
+        <para>Noi siamo uomini.</para>
+        <para>Noi beviamo acqua.</para>
+        <para>Le donne.</para>
+        <para>Bevete l'acqua.</para>
+        <para>Beviamo acqua.</para>
+        <para>Voi bevete l'acqua.</para>
+        <para>Voi siete uomini.</para>
+        <para>Noi beviamo.</para>
+        <para>Le ragazze bevono l'acqua.</para>
+        <para>Gli uomini bevono.</para>
+        <para>Gli uomini bevono l'acqua.</para>
+        <para>Voi siete ragazzi.</para>
+        <para>Voi bevete l'acqua.</para>
+        <para>Lui legge.</para>
+        <para>Leggi.</para>
+        <para>Voi leggete.</para>
+        <para>Io leggo il libro.</para>
+        <para>Leggiamo il libro.</para>
+        <para>Noi leggiamo un libro.</para>
+        <para>Tu leggi un libro.</para>
+        <para>Lei legge</para>
+        <para>Loro leggono un libro.</para>
+        <para>Voi leggete.</para>
+        <para>Io scrivo il libro.</para>
+        <para>Noi scriviamo un libro.</para>
+        <para>Voi scrivete un libro.</para>
+        <para>Lui scrive un libro.</para>
+        <para>Noi scriviamo un libro.</para>
+        <para>Io leggo un giornale.</para>
+        <para>Loro leggono un giornale.</para>
+        <para>Scrivete.</para>
+        <para>Noi scriviamo, voi scrivete.</para>
+        <para>Loro scrivono il libro.</para>
+        <para>Io scrivo.</para>
+        <para>Io mangio lo zucchero.</para>
+        <para>Lei mangia zucchero.</para>
+        <para>Nello zucchero</para>
+        <para>Ha un libro.</para>
+        <para>I ragazzi bevono l'acqua.</para>
+        <para>Lei ha un libro.</para>
+        <para>I ragazzi scrivono.</para>
+        <para>Io ho una mela.</para>
+        <para>Scrivete al ragazzo.</para>
+        <para>È nel giornale.</para>
+        <para>Gli uomini scrivono nello zucchero.</para>
+        <para>Noi siamo donne.</para>
+        <para>Loro sono donne</para>
+        <para>Loro sono ragazze.</para>
+        <para>Loro sono ragazzi.</para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+    </sect1>
+    <title>1. Les bases 1</title>
+    <sect1>
+        <para>Un chat.</para>
+        <para>Un homme.</para>
+        <para>Un garçon.</para>
+        <para>Un homme et un garçon.</para>
+        <para>Un chat et un garçon</para>
+        <para>Une femme et un homme.</para>
+        <para>Une femme</para>
+        <para>Un garçon et une fille</para>
+        <para>Je suis une femme.</para>
+        <para>Une fille et un garçon</para>
+        <para>Une femme et une fille</para>
+        <para>Je suis Félix. Je suis un chat.</para>
+        <para>Je suis Paul.</para>
+        <para>Snoopy, tu es un chien.</para>
+        <para>C'est un chat.</para>
+        <para>C'est un cheval.</para>
+        <para>Tu es un garçon et je suis un homme.</para>
+        <para>C'est un chat.</para>
+        <para>Tu es un cheval et je suis un homme.</para>
+        <para>Un chat et un cheval.</para>
+        <para>Tu es Marc?</para>
+        <para>Une fille et un chien</para>
+        <para></para>
+        <para></para>
+        <para></para>
+    </sect1>
+    <title>5. Voyager</title>
+    <sect1>
+        <para>Je vais à un restaurant français. Le restaurant s'appelle « La Table Française ».</para>
+        <para>C'est une gare française.</para>
+        <para>- Salut, Louis ! Je vais à Bordeaux. Et toi ? - Je vais à Paris. Bon voyage!</para>
+        <para>le restaurant français</para>
+        <para>Je suis à Lyon et je vais à Paris. Je vais à la gare.</para>
+        <para>C'est un restaurant mexicain.</para>
+        <para>Je vais à la gare.</para>
+        <para>- Salut, Patricia. Comment ça va ? - ça va bien. Je vais à Paris.</para>
+        <para>Le garçon est mexicain.</para>
+        <para>L'avion est un Boeing 777.</para>
+        <para>Tu vas à l'aéroport ou à la gare ?</para>
+        <para>un avion</para>
+        <para>C'est un hôtel.</para>
+        <para>C'est un avion américain.</para>
+        <para>Tu vas à l'hôtel.</para>
+        <para>Tu vas à l'hôtel ? Je vais à la gare.</para>
+        <para>Tu vas à la gare ?</para>
+        <para>Tu vas à l'aéroport.</para>
+        <para>Bonjour, monsieur. Je vais à l'aéroport. Merci beaucoup !</para>
+        <para>Sophie va à Berlin. Elle va à l'aéroport et elle prend l'avion.</para>
+        <para>C'est une voiture française.</para>
+        <para>Je vais à Marseille . Je vais à la gare et je prends le train.</para>
+        <para>Je prends le train.</para>
+        <para>Je prends l'avion.</para>
+        <para>Julia va à New York demain ?</para>
+        <para>Je vais à Bordeaux en train.</para>
+        <para>Il va à Paris en train et je vais à Paris en voiture.</para>
+        <para>En avion.</para>
+        <para>Tu vas à la gare ? Hélène va à l'aéroport.</para>
+        <para>Il va à la gare.</para>
+        <para>une valise</para>
+        <para>Où est la gare, s'il vous plaît ? Je prends un train et je vais à Paris.</para>
+        <para>Je vais à l'aéroport avec une valise.</para>
+        <para>- Tu vas où ? - Je vais à la gare en taxi.</para>
+        <para>S'il vous plaît.</para>
+        <para>Bonjour, où est la gare, s'il vous plaît ?</para>
+        <para>Tu prends le train ?</para>
+        <para>Tu vas à New York en taxi ?</para>
+        <para>Je vais à la gare en taxi, il va à la gare en train.</para>
+        <para>La valise</para>
+        <para>Tu vas à la gare en taxi ?</para>
+        <para>Tu prends le taxi?</para>
+        <para>Où est le restaurant, s'il vous plaît?</para>
+        <para>Tu prends l'avion.</para>
+        <para>J'ai le passeport, la valise, et le billet d'avion. Je vais en France !</para>
+        <para>Tu as une voiture française.</para>
+        <para>J'ai une voiture. Monsieur Gates a un avion.</para>
+        <para>Il a un passeport.</para>
+        <para>Tu as une valise et j'ai une valise.</para>
+        <para>J'ai un passeport et je prends l'avion.</para>
+        <para>Marc a un passeport.</para>
+        <para>Tu as un billet d'avion et elle a une valise.</para>
+        <para>Elle a un billet d'avion.</para>
+        <para>Tu vas à Berlin ? Tu as un billet d'avion ?</para>
+        <para>- Tu as ton billet d'avion ? - Oui, je vais à l'aéroport.</para>
+        <para>J'ai une voiture.</para>
+        <para>Tu as un billet d'avion?</para>
+        <para>J'ai une valise.</para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+        <para></para>
+    </sect1>
+</article>
